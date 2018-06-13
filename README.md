@@ -1,7 +1,6 @@
 EPAM DevOps course labs and tasks  
-My solutions:
+My solutions:  
 ACLscript.sh ----- READY  
 histogram1.awk ----- READY  
 histogram2.awk ----- READY  
-histogram.sh (SED) ----- READY!  
-big-bash-script.sh ----- developing...
+histogram.sh (SED) ----- READY!
