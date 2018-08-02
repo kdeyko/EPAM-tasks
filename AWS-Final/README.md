@@ -13,6 +13,6 @@ After successful resources creation take a look at outputs: you'll have bastion 
   
 # For deletion use:
 ```
-terraform apply -var 'access_key=YOUR-ACCESS-KEY' -var 'secret_key=YOUR-SECRET-KEY' -var 'key_pair_name=YOUR-KEY-PAIR-NAME'
+terraform destroy -var 'access_key=YOUR-ACCESS-KEY' -var 'secret_key=YOUR-SECRET-KEY' -var 'key_pair_name=YOUR-KEY-PAIR-NAME'
 ```
 If you also specified region or other vars, specify them here too for successful deletion.
