@@ -1,0 +1,45 @@
+def ip = '192.168.20.128'
+def agentName = 'testDockerSlave'
+def secretCredName = 'jnlp-agent-secret'
+def containerName = 'jenkins/jnlp-slave'
+def URLaddr = "http://${ip}:8080"
+ node(''){
+     withCredentials([string(credentialsId: "${secretCredName}", variable: 'TOKEN')]) {
+    docker.withTool("docker") { 
+        withDockerServer([uri: "tcp://${ip}:2376"]) { 
+        sh "docker images" 
+        sh "docker ps -a" 
+        sh "docker run -d ${containerName} -url ${URLaddr} ${TOKEN} ${agentName}"
+        } 
+    }
+}
+} 
+
+node("${agentName}"){
+    git branch: 'k.deyko',
+    credentialsId: 'gitlab2',
+    url: 'git@gitlab.com:nekirill/epam-devops-3rd-stream.git'
+  
+    withMaven(maven: 'Maven3') {
+            sh "mvn clean package"
+    }
+
+    nexusArtifactUploader artifacts: [
+        [artifactId: 'mesProcessor-jar', 
+            classifier: '', 
+            file: './message-processor/target/message-processor-1.0-SNAPSHOT.jar', 
+            type: 'jar'], 
+        [artifactId: 'mesGateway-war', 
+        classifier: '', 
+        file: './message-gateway/target/message-gateway-1.0-SNAPSHOT.war', 
+        type: 'war']
+        ], 
+        credentialsId: 'nexus', 
+        groupId: 'com.example', 
+        nexusUrl: "${ip}:8081", 
+        nexusVersion: 'nexus3', 
+        protocol: 'http', 
+        repository: 'mvn/', 
+        version: '1.0.1'
+    
+}
