@@ -1,18 +1,44 @@
-# # encoding: utf-8
-
-# Inspec test for recipe web::default
-
-# The Inspec reference, with examples and extensive documentation, can be
-# found at http://inspec.io/docs/reference/resources/
-
-unless os.windows?
-  # This is an example test, replace with your own test.
-  describe user('root'), :skip do
-    it { should exist }
-  end
+describe package 'php' do
+  it { should be_installed }
 end
 
-# This is an example test, replace it with your own test.
-describe port(80), :skip do
-  it { should_not be_listening }
+describe package 'php-mysql' do
+  it { should be_installed }
+end
+
+describe package 'nginx' do
+  it { should be_installed }
+end
+
+describe service 'nginx' do
+  it { should be_enabled }
+  it { should be_running }
+end
+
+describe port(8080) do
+  it { should be_listening }
+end
+
+describe command('curl http://localhost:8080') do
+  its('stdout') { should match 'Hello there!' }
+end
+
+describe file('/etc/nginx/sites-available/default') do
+  it { should exist }
+  its('mode') { should cmp '0644' }
+end
+
+describe file('/var/www/html/index.php') do
+  it { should exist }
+  its('mode') { should cmp '0644' }
+end
+
+describe file('/var/www/html/db.php') do
+  it { should exist }
+  its('mode') { should cmp '0644' }
+end
+
+describe file('/var/www/html/add.php') do
+  it { should exist }
+  its('mode') { should cmp '0644' }
 end
