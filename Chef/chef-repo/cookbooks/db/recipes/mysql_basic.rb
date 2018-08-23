@@ -14,7 +14,7 @@ mysql_config 'default' do
 end
 
 execute 'create DB' do
-  command "echo \"CREATE DATABASE words;\" | mysql -S /var/run/mysql-default/mysqld.sock -u root -p#{passwords['root']}"
+  command "echo 'CREATE DATABASE words;' | mysql -S /var/run/mysql-default/mysqld.sock -u root -p#{passwords['root']}"
   sensitive true
 end
 

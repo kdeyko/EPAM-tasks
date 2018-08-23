@@ -14,8 +14,9 @@ ruby_block 'get master values' do
     file.run_command
     pos = Mixlib::ShellOut.new("echo 'SHOW MASTER STATUS;' | mysql -S /var/run/mysql-default/mysqld.sock -u root -p#{passwords['root']} | awk '/words/ {print $2}'")
     pos.run_command
+    puts "file = " + file.stdout
+    puts "pos = " + pos.stdout
     node.default['master_file'] = file.stdout
     node.default['master_pos'] = pos.stdout
   end
-  notifies :restart, 'mysql_service[default]', :immediately
 end
