@@ -1,320 +1,317 @@
-I, [2018-08-24T19:09:04.018947 #1360]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
-I, [2018-08-24T19:09:04.020663 #1360]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
-I, [2018-08-24T19:09:09.372707 #1360]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
-I, [2018-08-24T19:09:09.859586 #1360]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
-I, [2018-08-24T19:09:09.864869 #1360]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m5.84s).
-I, [2018-08-24T19:09:09.866855 #1360]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
-I, [2018-08-24T19:09:09.867247 #1360]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
-I, [2018-08-24T19:09:11.070193 #1360]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
-I, [2018-08-24T19:09:11.223326 #1360]  INFO -- default-ubuntu-1604: ==> default: Importing base box 'bento/ubuntu-16.04'...
-I, [2018-08-24T19:09:27.478483 #1360]  INFO -- default-ubuntu-1604: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
-I, [2018-08-24T19:09:27.651770 #1360]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'bento/ubuntu-16.04' is up to date...
-I, [2018-08-24T19:09:29.680414 #1360]  INFO -- default-ubuntu-1604: ==> default: Setting the name of the VM: default-ubuntu-1604_default_1535126969621_52898
-I, [2018-08-24T19:09:30.623876 #1360]  INFO -- default-ubuntu-1604: ==> default: Clearing any previously set network interfaces...
-I, [2018-08-24T19:09:30.697810 #1360]  INFO -- default-ubuntu-1604: ==> default: Preparing network interfaces based on configuration...
-I, [2018-08-24T19:09:30.698361 #1360]  INFO -- default-ubuntu-1604:     default: Adapter 1: nat
-I, [2018-08-24T19:09:30.766215 #1360]  INFO -- default-ubuntu-1604: ==> default: Forwarding ports...
-I, [2018-08-24T19:09:30.900606 #1360]  INFO -- default-ubuntu-1604:     default: 22 (guest) => 2222 (host) (adapter 1)
-I, [2018-08-24T19:09:31.104309 #1360]  INFO -- default-ubuntu-1604: ==> default: Booting VM...
-I, [2018-08-24T19:09:31.836871 #1360]  INFO -- default-ubuntu-1604: ==> default: Waiting for machine to boot. This may take a few minutes...
-I, [2018-08-24T19:09:32.317195 #1360]  INFO -- default-ubuntu-1604:     default: SSH address: 127.0.0.1:2222
-I, [2018-08-24T19:09:32.317556 #1360]  INFO -- default-ubuntu-1604:     default: SSH username: vagrant
-I, [2018-08-24T19:09:32.317721 #1360]  INFO -- default-ubuntu-1604:     default: SSH auth method: private key
-I, [2018-08-24T19:09:47.979504 #1360]  INFO -- default-ubuntu-1604:     default: Warning: Connection reset. Retrying...
-I, [2018-08-24T19:09:50.228818 #1360]  INFO -- default-ubuntu-1604:     default: 
-I, [2018-08-24T19:09:50.228949 #1360]  INFO -- default-ubuntu-1604:     default: Vagrant insecure key detected. Vagrant will automatically replace
-I, [2018-08-24T19:09:50.229236 #1360]  INFO -- default-ubuntu-1604:     default: this with a newly generated keypair for better security.
-I, [2018-08-24T19:09:51.791326 #1360]  INFO -- default-ubuntu-1604:     default: 
-I, [2018-08-24T19:09:51.791649 #1360]  INFO -- default-ubuntu-1604:     default: Inserting generated public key within guest...
-I, [2018-08-24T19:09:51.982568 #1360]  INFO -- default-ubuntu-1604:     default: Removing insecure key from the guest if it's present...
-I, [2018-08-24T19:09:52.139150 #1360]  INFO -- default-ubuntu-1604:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
-I, [2018-08-24T19:09:52.885491 #1360]  INFO -- default-ubuntu-1604: ==> default: Machine booted and ready!
-I, [2018-08-24T19:09:52.886139 #1360]  INFO -- default-ubuntu-1604: ==> default: Checking for guest additions in VM...
-I, [2018-08-24T19:09:52.962003 #1360]  INFO -- default-ubuntu-1604:     default: The guest additions on this VM do not match the installed version of
-I, [2018-08-24T19:09:52.962185 #1360]  INFO -- default-ubuntu-1604:     default: VirtualBox! In most cases this is fine, but in rare cases it can
-I, [2018-08-24T19:09:52.962429 #1360]  INFO -- default-ubuntu-1604:     default: prevent things such as shared folders from working properly. If you see
-I, [2018-08-24T19:09:52.962504 #1360]  INFO -- default-ubuntu-1604:     default: shared folder errors, please make sure the guest additions within the
-I, [2018-08-24T19:09:52.962563 #1360]  INFO -- default-ubuntu-1604:     default: virtual machine match the version of VirtualBox you have installed on
-I, [2018-08-24T19:09:52.962702 #1360]  INFO -- default-ubuntu-1604:     default: your host and reload your VM.
-I, [2018-08-24T19:09:52.962761 #1360]  INFO -- default-ubuntu-1604:     default: 
-I, [2018-08-24T19:09:52.962809 #1360]  INFO -- default-ubuntu-1604:     default: Guest Additions Version: 5.2.12
-I, [2018-08-24T19:09:52.962999 #1360]  INFO -- default-ubuntu-1604:     default: VirtualBox Version: 5.1
-I, [2018-08-24T19:09:52.963806 #1360]  INFO -- default-ubuntu-1604: ==> default: Setting hostname...
-I, [2018-08-24T19:09:53.528685 #1360]  INFO -- default-ubuntu-1604: ==> default: Mounting shared folders...
-I, [2018-08-24T19:09:53.529401 #1360]  INFO -- default-ubuntu-1604:     default: /tmp/omnibus/cache => /Users/Kirill/.kitchen/cache
-I, [2018-08-24T19:09:54.327738 #1360]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
-I, [2018-08-24T19:09:57.236163 #1360]  INFO -- default-ubuntu-1604: [SSH] Established
-I, [2018-08-24T19:09:57.237964 #1360]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
-I, [2018-08-24T19:09:57.239300 #1360]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (0m47.37s).
-I, [2018-08-24T19:09:57.239870 #1360]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
-I, [2018-08-24T19:09:57.241770 #1360]  INFO -- default-ubuntu-1604: Preparing files for transfer
-I, [2018-08-24T19:09:57.242249 #1360]  INFO -- default-ubuntu-1604: Preparing dna.json
-I, [2018-08-24T19:09:57.243594 #1360]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 7.0.4...
-I, [2018-08-24T19:10:02.198144 #1360]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
-I, [2018-08-24T19:10:02.206219 #1360]  INFO -- default-ubuntu-1604: Preparing data_bags
-I, [2018-08-24T19:10:02.208704 #1360]  INFO -- default-ubuntu-1604: Preparing roles
-I, [2018-08-24T19:10:02.214742 #1360]  INFO -- default-ubuntu-1604: Preparing validation.pem
-I, [2018-08-24T19:10:02.216698 #1360]  INFO -- default-ubuntu-1604: Preparing client.rb
-I, [2018-08-24T19:10:02.246715 #1360]  INFO -- default-ubuntu-1604: -----> Installing Chef Omnibus (install only if missing)
-I, [2018-08-24T19:10:02.250092 #1360]  INFO -- default-ubuntu-1604: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
-I, [2018-08-24T19:10:02.250569 #1360]  INFO -- default-ubuntu-1604: Trying wget...
-I, [2018-08-24T19:10:03.686336 #1360]  INFO -- default-ubuntu-1604: Download complete.
-I, [2018-08-24T19:10:03.708735 #1360]  INFO -- default-ubuntu-1604: ubuntu 16.04 x86_64
-I, [2018-08-24T19:10:03.708954 #1360]  INFO -- default-ubuntu-1604: Getting information for chef stable  for ubuntu...
-I, [2018-08-24T19:10:03.709052 #1360]  INFO -- default-ubuntu-1604: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
-I, [2018-08-24T19:10:03.709101 #1360]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1554/metadata.txt
-I, [2018-08-24T19:10:03.709840 #1360]  INFO -- default-ubuntu-1604: trying wget...
-I, [2018-08-24T19:10:04.857271 #1360]  INFO -- default-ubuntu-1604: sha1	845b83d65443c62b11911fc83a70d6cac282f7cd
-I, [2018-08-24T19:10:04.858208 #1360]  INFO -- default-ubuntu-1604: sha256	f2578ed674189d4c303e5fece3faeb4c4a0117f5d29e5e050982a38fbaaad0e5
-I, [2018-08-24T19:10:04.859311 #1360]  INFO -- default-ubuntu-1604: url	https://packages.chef.io/files/stable/chef/14.3.37/ubuntu/16.04/chef_14.3.37-1_amd64.deb
-I, [2018-08-24T19:10:04.859992 #1360]  INFO -- default-ubuntu-1604: version	14.3.37
-I, [2018-08-24T19:10:04.863392 #1360]  INFO -- default-ubuntu-1604: downloaded metadata file looks valid...
-I, [2018-08-24T19:10:04.886349 #1360]  INFO -- default-ubuntu-1604: /tmp/omnibus/cache/chef_14.3.37-1_amd64.deb exists
-I, [2018-08-24T19:10:04.887219 #1360]  INFO -- default-ubuntu-1604: Comparing checksum with sha256sum...
-I, [2018-08-24T19:10:05.623999 #1360]  INFO -- default-ubuntu-1604: 
-I, [2018-08-24T19:10:05.624630 #1360]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2018-08-24T19:10:05.624723 #1360]  INFO -- default-ubuntu-1604: 
-I, [2018-08-24T19:10:05.624816 #1360]  INFO -- default-ubuntu-1604: You are installing an omnibus package without a version pin.  If you are installing
-I, [2018-08-24T19:10:05.624861 #1360]  INFO -- default-ubuntu-1604: on production servers via an automated process this is DANGEROUS and you will
-I, [2018-08-24T19:10:05.624897 #1360]  INFO -- default-ubuntu-1604: be upgraded without warning on new releases, even to new major releases.
-I, [2018-08-24T19:10:05.625461 #1360]  INFO -- default-ubuntu-1604: Letting the version float is only appropriate in desktop, test, development or
-I, [2018-08-24T19:10:05.625531 #1360]  INFO -- default-ubuntu-1604: CI/CD environments.
-I, [2018-08-24T19:10:05.625569 #1360]  INFO -- default-ubuntu-1604: 
-I, [2018-08-24T19:10:05.625809 #1360]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2018-08-24T19:10:05.625876 #1360]  INFO -- default-ubuntu-1604: 
-I, [2018-08-24T19:10:05.625925 #1360]  INFO -- default-ubuntu-1604: Installing chef 
-I, [2018-08-24T19:10:05.625959 #1360]  INFO -- default-ubuntu-1604: installing with dpkg...
-I, [2018-08-24T19:10:05.734596 #1360]  INFO -- default-ubuntu-1604: Selecting previously unselected package chef.
-I, [2018-08-24T19:10:06.217127 #1360]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 38375 files and directories currently installed.)
-I, [2018-08-24T19:10:06.220466 #1360]  INFO -- default-ubuntu-1604: Preparing to unpack .../cache/chef_14.3.37-1_amd64.deb ...
-I, [2018-08-24T19:10:06.234204 #1360]  INFO -- default-ubuntu-1604: Unpacking chef (14.3.37-1) ...
-I, [2018-08-24T19:10:19.748007 #1360]  INFO -- default-ubuntu-1604: Setting up chef (14.3.37-1) ...
-I, [2018-08-24T19:10:19.916041 #1360]  INFO -- default-ubuntu-1604: Thank you for installing Chef!
-I, [2018-08-24T19:10:19.988154 #1360]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
-I, [2018-08-24T19:10:21.892417 #1360]  INFO -- default-ubuntu-1604: Starting Chef Client, version 14.3.37
-I, [2018-08-24T19:10:23.669264 #1360]  INFO -- default-ubuntu-1604: Creating a new client identity for default-ubuntu-1604 using the validator key.
-I, [2018-08-24T19:10:23.828810 #1360]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["web::default", "web::php", "web::nginx"]
-I, [2018-08-24T19:10:23.886789 #1360]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
-I, [2018-08-24T19:10:23.921389 #1360]  INFO -- default-ubuntu-1604:   - web (0.1.0)
-I, [2018-08-24T19:10:23.922531 #1360]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
-I, [2018-08-24T19:10:23.929921 #1360]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
-I, [2018-08-24T19:10:23.947569 #1360]  INFO -- default-ubuntu-1604: Converging 9 resources
-I, [2018-08-24T19:10:23.948669 #1360]  INFO -- default-ubuntu-1604: Recipe: web::default
-I, [2018-08-24T19:10:23.953935 #1360]  INFO -- default-ubuntu-1604:   * apt_update[] action periodic
-I, [2018-08-24T19:10:23.955941 #1360]  INFO -- default-ubuntu-1604:     - update new lists of packages
-I, [2018-08-24T19:10:23.959653 #1360]  INFO -- default-ubuntu-1604:     * directory[/var/lib/apt/periodic] action create (up to date)
-I, [2018-08-24T19:10:23.963162 #1360]  INFO -- default-ubuntu-1604:     * directory[/etc/apt/apt.conf.d] action create (up to date)
-I, [2018-08-24T19:10:23.966407 #1360]  INFO -- default-ubuntu-1604:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
-I, [2018-08-24T19:10:38.617847 #1360]  INFO -- default-ubuntu-1604:     * execute[apt-get -q update] action run
-I, [2018-08-24T19:10:38.618841 #1360]  INFO -- default-ubuntu-1604:       - execute apt-get -q update
-I, [2018-08-24T19:10:38.620408 #1360]  INFO -- default-ubuntu-1604:   
-I, [2018-08-24T19:10:38.621834 #1360]  INFO -- default-ubuntu-1604: Recipe: web::php
-I, [2018-08-24T19:11:10.428407 #1360]  INFO -- default-ubuntu-1604:   * apt_package[php] action install
-I, [2018-08-24T19:11:10.430239 #1360]  INFO -- default-ubuntu-1604:     - install version 1:7.0+35ubuntu6.1 of package php
-I, [2018-08-24T19:11:18.071177 #1360]  INFO -- default-ubuntu-1604:   * apt_package[php-mysql] action install
-I, [2018-08-24T19:11:18.073456 #1360]  INFO -- default-ubuntu-1604:     - install version 1:7.0+35ubuntu6.1 of package php-mysql
-I, [2018-08-24T19:11:18.074506 #1360]  INFO -- default-ubuntu-1604: Recipe: web::nginx
-I, [2018-08-24T19:11:33.374486 #1360]  INFO -- default-ubuntu-1604:   * apt_package[nginx] action install
-I, [2018-08-24T19:11:33.377925 #1360]  INFO -- default-ubuntu-1604:     - install version 1.10.3-0ubuntu0.16.04.2 of package nginx
-I, [2018-08-24T19:11:33.386906 #1360]  INFO -- default-ubuntu-1604:   * cookbook_file[/etc/nginx/sites-available/default] action create
-I, [2018-08-24T19:11:33.387698 #1360]  INFO -- default-ubuntu-1604:     - update content in file /etc/nginx/sites-available/default from 4b2b5e to 10b8fb
-I, [2018-08-24T19:11:33.388712 #1360]  INFO -- default-ubuntu-1604:     --- /etc/nginx/sites-available/default	2017-02-11 21:00:57.000000000 +0000
-I, [2018-08-24T19:11:33.389976 #1360]  INFO -- default-ubuntu-1604:     +++ /etc/nginx/sites-available/.chef-default20180824-1636-1msa4au	2018-08-24 16:11:32.007979457 +0000
-I, [2018-08-24T19:11:33.390705 #1360]  INFO -- default-ubuntu-1604:     @@ -1,87 +1,18 @@
-I, [2018-08-24T19:11:33.390788 #1360]  INFO -- default-ubuntu-1604:     -##
-I, [2018-08-24T19:11:33.391745 #1360]  INFO -- default-ubuntu-1604:     -# You should look at the following URL's in order to grasp a solid understanding
-I, [2018-08-24T19:11:33.391879 #1360]  INFO -- default-ubuntu-1604:     -# of Nginx configuration files in order to fully unleash the power of Nginx.
-I, [2018-08-24T19:11:33.392005 #1360]  INFO -- default-ubuntu-1604:     -# http://wiki.nginx.org/Pitfalls
-I, [2018-08-24T19:11:33.392100 #1360]  INFO -- default-ubuntu-1604:     -# http://wiki.nginx.org/QuickStart
-I, [2018-08-24T19:11:33.392242 #1360]  INFO -- default-ubuntu-1604:     -# http://wiki.nginx.org/Configuration
-I, [2018-08-24T19:11:33.392371 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.394194 #1360]  INFO -- default-ubuntu-1604:     -# Generally, you will want to move this file somewhere, and start with a clean
-I, [2018-08-24T19:11:33.394423 #1360]  INFO -- default-ubuntu-1604:     -# file but keep this around for reference. Or just disable in sites-enabled.
-I, [2018-08-24T19:11:33.394523 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.394589 #1360]  INFO -- default-ubuntu-1604:     -# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
-I, [2018-08-24T19:11:33.394631 #1360]  INFO -- default-ubuntu-1604:     -##
-I, [2018-08-24T19:11:33.394666 #1360]  INFO -- default-ubuntu-1604:     -
-I, [2018-08-24T19:11:33.394700 #1360]  INFO -- default-ubuntu-1604:     -# Default server configuration
-I, [2018-08-24T19:11:33.394778 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.395516 #1360]  INFO -- default-ubuntu-1604:      server {
-I, [2018-08-24T19:11:33.395584 #1360]  INFO -- default-ubuntu-1604:     -	listen 80 default_server;
-I, [2018-08-24T19:11:33.395621 #1360]  INFO -- default-ubuntu-1604:     -	listen [::]:80 default_server;
-I, [2018-08-24T19:11:33.395653 #1360]  INFO -- default-ubuntu-1604:     +        listen 8080 default_server;
-I, [2018-08-24T19:11:33.395683 #1360]  INFO -- default-ubuntu-1604:     +        root /var/www/html;
-I, [2018-08-24T19:11:33.395714 #1360]  INFO -- default-ubuntu-1604:     +        index index.php
-I, [2018-08-24T19:11:33.395749 #1360]  INFO -- default-ubuntu-1604:      
-I, [2018-08-24T19:11:33.395779 #1360]  INFO -- default-ubuntu-1604:     -	# SSL configuration
-I, [2018-08-24T19:11:33.395807 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.395836 #1360]  INFO -- default-ubuntu-1604:     -	# listen 443 ssl default_server;
-I, [2018-08-24T19:11:33.395930 #1360]  INFO -- default-ubuntu-1604:     -	# listen [::]:443 ssl default_server;
-I, [2018-08-24T19:11:33.395961 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.396806 #1360]  INFO -- default-ubuntu-1604:     -	# Note: You should disable gzip for SSL traffic.
-I, [2018-08-24T19:11:33.397372 #1360]  INFO -- default-ubuntu-1604:     -	# See: https://bugs.debian.org/773332
-I, [2018-08-24T19:11:33.397439 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.397477 #1360]  INFO -- default-ubuntu-1604:     -	# Read up on ssl_ciphers to ensure a secure configuration.
-I, [2018-08-24T19:11:33.397516 #1360]  INFO -- default-ubuntu-1604:     -	# See: https://bugs.debian.org/765782
-I, [2018-08-24T19:11:33.397547 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.397577 #1360]  INFO -- default-ubuntu-1604:     -	# Self signed certs generated by the ssl-cert package
-I, [2018-08-24T19:11:33.397607 #1360]  INFO -- default-ubuntu-1604:     -	# Don't use them in a production server!
-I, [2018-08-24T19:11:33.397635 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.397664 #1360]  INFO -- default-ubuntu-1604:     -	# include snippets/snakeoil.conf;
-I, [2018-08-24T19:11:33.397694 #1360]  INFO -- default-ubuntu-1604:     +        server_name localhost;
-I, [2018-08-24T19:11:33.398593 #1360]  INFO -- default-ubuntu-1604:      
-I, [2018-08-24T19:11:33.398706 #1360]  INFO -- default-ubuntu-1604:     -	root /var/www/html;
-I, [2018-08-24T19:11:33.399234 #1360]  INFO -- default-ubuntu-1604:     +        location / {
-I, [2018-08-24T19:11:33.399297 #1360]  INFO -- default-ubuntu-1604:     +                try_files $uri $uri/ =404;
-I, [2018-08-24T19:11:33.399341 #1360]  INFO -- default-ubuntu-1604:     +        }
-I, [2018-08-24T19:11:33.399375 #1360]  INFO -- default-ubuntu-1604:      
-I, [2018-08-24T19:11:33.399405 #1360]  INFO -- default-ubuntu-1604:     -	# Add index.php to the list if you are using PHP
-I, [2018-08-24T19:11:33.399436 #1360]  INFO -- default-ubuntu-1604:     -	index index.html index.htm index.nginx-debian.html;
-I, [2018-08-24T19:11:33.399467 #1360]  INFO -- default-ubuntu-1604:     +        location ~ \.php$ {
-I, [2018-08-24T19:11:33.399497 #1360]  INFO -- default-ubuntu-1604:     +                include snippets/fastcgi-php.conf;
-I, [2018-08-24T19:11:33.399546 #1360]  INFO -- default-ubuntu-1604:     +                fastcgi_pass unix:/run/php/php7.0-fpm.sock;
-I, [2018-08-24T19:11:33.400615 #1360]  INFO -- default-ubuntu-1604:     +        }
-I, [2018-08-24T19:11:33.400707 #1360]  INFO -- default-ubuntu-1604:      
-I, [2018-08-24T19:11:33.400792 #1360]  INFO -- default-ubuntu-1604:     -	server_name _;
-I, [2018-08-24T19:11:33.400897 #1360]  INFO -- default-ubuntu-1604:     -
-I, [2018-08-24T19:11:33.400936 #1360]  INFO -- default-ubuntu-1604:     -	location / {
-I, [2018-08-24T19:11:33.400969 #1360]  INFO -- default-ubuntu-1604:     -		# First attempt to serve request as file, then
-I, [2018-08-24T19:11:33.401001 #1360]  INFO -- default-ubuntu-1604:     -		# as directory, then fall back to displaying a 404.
-I, [2018-08-24T19:11:33.401062 #1360]  INFO -- default-ubuntu-1604:     -		try_files $uri $uri/ =404;
-I, [2018-08-24T19:11:33.401623 #1360]  INFO -- default-ubuntu-1604:     -	}
-I, [2018-08-24T19:11:33.401683 #1360]  INFO -- default-ubuntu-1604:     -
-I, [2018-08-24T19:11:33.401718 #1360]  INFO -- default-ubuntu-1604:     -	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
-I, [2018-08-24T19:11:33.401750 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.401780 #1360]  INFO -- default-ubuntu-1604:     -	#location ~ \.php$ {
-I, [2018-08-24T19:11:33.401808 #1360]  INFO -- default-ubuntu-1604:     -	#	include snippets/fastcgi-php.conf;
-I, [2018-08-24T19:11:33.402242 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.402314 #1360]  INFO -- default-ubuntu-1604:     -	#	# With php7.0-cgi alone:
-I, [2018-08-24T19:11:33.402366 #1360]  INFO -- default-ubuntu-1604:     -	#	fastcgi_pass 127.0.0.1:9000;
-I, [2018-08-24T19:11:33.402402 #1360]  INFO -- default-ubuntu-1604:     -	#	# With php7.0-fpm:
-I, [2018-08-24T19:11:33.403039 #1360]  INFO -- default-ubuntu-1604:     -	#	fastcgi_pass unix:/run/php/php7.0-fpm.sock;
-I, [2018-08-24T19:11:33.403107 #1360]  INFO -- default-ubuntu-1604:     -	#}
-I, [2018-08-24T19:11:33.403157 #1360]  INFO -- default-ubuntu-1604:     -
-I, [2018-08-24T19:11:33.403226 #1360]  INFO -- default-ubuntu-1604:     -	# deny access to .htaccess files, if Apache's document root
-I, [2018-08-24T19:11:33.403301 #1360]  INFO -- default-ubuntu-1604:     -	# concurs with nginx's one
-I, [2018-08-24T19:11:33.403346 #1360]  INFO -- default-ubuntu-1604:     -	#
-I, [2018-08-24T19:11:33.404124 #1360]  INFO -- default-ubuntu-1604:     -	#location ~ /\.ht {
-I, [2018-08-24T19:11:33.404197 #1360]  INFO -- default-ubuntu-1604:     -	#	deny all;
-I, [2018-08-24T19:11:33.404234 #1360]  INFO -- default-ubuntu-1604:     -	#}
-I, [2018-08-24T19:11:33.404266 #1360]  INFO -- default-ubuntu-1604:      }
-I, [2018-08-24T19:11:33.404295 #1360]  INFO -- default-ubuntu-1604:     -
-I, [2018-08-24T19:11:33.404323 #1360]  INFO -- default-ubuntu-1604:     -
-I, [2018-08-24T19:11:33.404353 #1360]  INFO -- default-ubuntu-1604:     -# Virtual Host configuration for example.com
-I, [2018-08-24T19:11:33.404867 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.404947 #1360]  INFO -- default-ubuntu-1604:     -# You can move that to a different file under sites-available/ and symlink that
-I, [2018-08-24T19:11:33.404994 #1360]  INFO -- default-ubuntu-1604:     -# to sites-enabled/ to enable it.
-I, [2018-08-24T19:11:33.405028 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.405059 #1360]  INFO -- default-ubuntu-1604:     -#server {
-I, [2018-08-24T19:11:33.405088 #1360]  INFO -- default-ubuntu-1604:     -#	listen 80;
-I, [2018-08-24T19:11:33.405116 #1360]  INFO -- default-ubuntu-1604:     -#	listen [::]:80;
-I, [2018-08-24T19:11:33.405144 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.405513 #1360]  INFO -- default-ubuntu-1604:     -#	server_name example.com;
-I, [2018-08-24T19:11:33.405563 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.406106 #1360]  INFO -- default-ubuntu-1604:     -#	root /var/www/example.com;
-I, [2018-08-24T19:11:33.406170 #1360]  INFO -- default-ubuntu-1604:     -#	index index.html;
-I, [2018-08-24T19:11:33.406205 #1360]  INFO -- default-ubuntu-1604:     -#
-I, [2018-08-24T19:11:33.406235 #1360]  INFO -- default-ubuntu-1604:     -#	location / {
-I, [2018-08-24T19:11:33.406265 #1360]  INFO -- default-ubuntu-1604:     -#		try_files $uri $uri/ =404;
-I, [2018-08-24T19:11:33.406972 #1360]  INFO -- default-ubuntu-1604:     -#	}
-I, [2018-08-24T19:11:33.407037 #1360]  INFO -- default-ubuntu-1604:     -#}
-I, [2018-08-24T19:11:33.409879 #1360]  INFO -- default-ubuntu-1604:   * cookbook_file[/var/www/html/index.php] action create
-I, [2018-08-24T19:11:33.412729 #1360]  INFO -- default-ubuntu-1604:     - create new file /var/www/html/index.php
-I, [2018-08-24T19:11:33.414077 #1360]  INFO -- default-ubuntu-1604:     - update content in file /var/www/html/index.php from none to e8610a
-I, [2018-08-24T19:11:33.420652 #1360]  INFO -- default-ubuntu-1604:     --- /var/www/html/index.php	2018-08-24 16:11:32.035993458 +0000
-I, [2018-08-24T19:11:33.422174 #1360]  INFO -- default-ubuntu-1604:     +++ /var/www/html/.chef-index20180824-1636-z8at7l.php	2018-08-24 16:11:32.031991457 +0000
-I, [2018-08-24T19:11:33.422698 #1360]  INFO -- default-ubuntu-1604:     @@ -1 +1,36 @@
-I, [2018-08-24T19:11:33.422972 #1360]  INFO -- default-ubuntu-1604:     +<html>
-I, [2018-08-24T19:11:33.423049 #1360]  INFO -- default-ubuntu-1604:     +<head>
-I, [2018-08-24T19:11:33.423115 #1360]  INFO -- default-ubuntu-1604:     +	<meta charset="UTF-8">
-I, [2018-08-24T19:11:33.423441 #1360]  INFO -- default-ubuntu-1604:     +	<title>My awesome app</title>
-I, [2018-08-24T19:11:33.423512 #1360]  INFO -- default-ubuntu-1604:     +</head>
-I, [2018-08-24T19:11:33.423573 #1360]  INFO -- default-ubuntu-1604:     +<body>
-I, [2018-08-24T19:11:33.424078 #1360]  INFO -- default-ubuntu-1604:     +	<h1 align=center>Hello there!</h1>
-I, [2018-08-24T19:11:33.424484 #1360]  INFO -- default-ubuntu-1604:     +	<h2 align=center>Here you can see the last 3 words from the DB:</h2>
-I, [2018-08-24T19:11:33.424812 #1360]  INFO -- default-ubuntu-1604:     +	<?php
-I, [2018-08-24T19:11:33.425187 #1360]  INFO -- default-ubuntu-1604:     +	// db connection
-I, [2018-08-24T19:11:33.425469 #1360]  INFO -- default-ubuntu-1604:     +	include_once('db.php');
-I, [2018-08-24T19:11:33.426077 #1360]  INFO -- default-ubuntu-1604:     +
-I, [2018-08-24T19:11:33.426489 #1360]  INFO -- default-ubuntu-1604:     +	// show last 3 words from db
-I, [2018-08-24T19:11:33.427394 #1360]  INFO -- default-ubuntu-1604:     +	$get = "SELECT word FROM main ORDER BY id DESC LIMIT 3";
-I, [2018-08-24T19:11:33.428041 #1360]  INFO -- default-ubuntu-1604:     +	$result = mysqli_query($slave, $get);
-I, [2018-08-24T19:11:33.428754 #1360]  INFO -- default-ubuntu-1604:     +
-I, [2018-08-24T19:11:33.429209 #1360]  INFO -- default-ubuntu-1604:     +	while ($arr = $result->fetch_assoc()){
-I, [2018-08-24T19:11:33.429637 #1360]  INFO -- default-ubuntu-1604:     +	echo "<h3 align=center style='color:blue'>" . $arr['word'] . "</h3>";
-I, [2018-08-24T19:11:33.430027 #1360]  INFO -- default-ubuntu-1604:     +	}
-I, [2018-08-24T19:11:33.430401 #1360]  INFO -- default-ubuntu-1604:     +	?>
-I, [2018-08-24T19:11:33.430555 #1360]  INFO -- default-ubuntu-1604:     +	<br><br>
-I, [2018-08-24T19:11:33.430892 #1360]  INFO -- default-ubuntu-1604:     +	<h2 align=center>Add word to the DB</h2>
-I, [2018-08-24T19:11:33.431461 #1360]  INFO -- default-ubuntu-1604:     +	<form action="add.php" method ="post">
-I, [2018-08-24T19:11:33.432024 #1360]  INFO -- default-ubuntu-1604:     +		<p align=center>
-I, [2018-08-24T19:11:33.432949 #1360]  INFO -- default-ubuntu-1604:     +		<input type="text" name="newword" maxlength="50"><br>
-I, [2018-08-24T19:11:33.433828 #1360]  INFO -- default-ubuntu-1604:     +		<input type="submit" value="ADD">
-I, [2018-08-24T19:11:33.434364 #1360]  INFO -- default-ubuntu-1604:     +		</p>
-I, [2018-08-24T19:11:33.434765 #1360]  INFO -- default-ubuntu-1604:     +	</form>
-I, [2018-08-24T19:11:33.435064 #1360]  INFO -- default-ubuntu-1604:     +
-I, [2018-08-24T19:11:33.435671 #1360]  INFO -- default-ubuntu-1604:     +	<?php
-I, [2018-08-24T19:11:33.436113 #1360]  INFO -- default-ubuntu-1604:     +	if($_GET['msg']){
-I, [2018-08-24T19:11:33.436491 #1360]  INFO -- default-ubuntu-1604:     +	echo "<h3 align=center style='color:green'>The word " . $_GET['msg'] . " added!</h3>";
-I, [2018-08-24T19:11:33.436607 #1360]  INFO -- default-ubuntu-1604:     +	} ?>
-I, [2018-08-24T19:11:33.436655 #1360]  INFO -- default-ubuntu-1604:     +</body>
-I, [2018-08-24T19:11:33.436720 #1360]  INFO -- default-ubuntu-1604:     +</html>
-I, [2018-08-24T19:11:33.437272 #1360]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
-I, [2018-08-24T19:11:33.437871 #1360]  INFO -- default-ubuntu-1604:   * cookbook_file[/var/www/html/add.php] action create
-I, [2018-08-24T19:11:33.438332 #1360]  INFO -- default-ubuntu-1604:     - create new file /var/www/html/add.php
-I, [2018-08-24T19:11:33.438877 #1360]  INFO -- default-ubuntu-1604:     - update content in file /var/www/html/add.php from none to e200e7
-I, [2018-08-24T19:11:33.439802 #1360]  INFO -- default-ubuntu-1604:     --- /var/www/html/add.php	2018-08-24 16:11:32.056003457 +0000
-I, [2018-08-24T19:11:33.440630 #1360]  INFO -- default-ubuntu-1604:     +++ /var/www/html/.chef-add20180824-1636-uqp9vr.php	2018-08-24 16:11:32.056003457 +0000
-I, [2018-08-24T19:11:33.441054 #1360]  INFO -- default-ubuntu-1604:     @@ -1 +1,14 @@
-I, [2018-08-24T19:11:33.441120 #1360]  INFO -- default-ubuntu-1604:     +<?php
-I, [2018-08-24T19:11:33.441732 #1360]  INFO -- default-ubuntu-1604:     +
-I, [2018-08-24T19:11:33.441837 #1360]  INFO -- default-ubuntu-1604:     +include_once('db.php');
-I, [2018-08-24T19:11:33.441912 #1360]  INFO -- default-ubuntu-1604:     +
-I, [2018-08-24T19:11:33.441985 #1360]  INFO -- default-ubuntu-1604:     +$newword = mysqli_real_escape_string($master, $_REQUEST['newword']);
-I, [2018-08-24T19:11:33.442040 #1360]  INFO -- default-ubuntu-1604:     +
-I, [2018-08-24T19:11:33.442080 #1360]  INFO -- default-ubuntu-1604:     +$add = "INSERT INTO main (word) VALUES ('$newword')";
-I, [2018-08-24T19:11:33.442126 #1360]  INFO -- default-ubuntu-1604:     +if(mysqli_query($master, $add)){
-I, [2018-08-24T19:11:33.442158 #1360]  INFO -- default-ubuntu-1604:     +	header("Location: .?msg=$newword");
-I, [2018-08-24T19:11:33.442263 #1360]  INFO -- default-ubuntu-1604:     +} else{
-I, [2018-08-24T19:11:33.442863 #1360]  INFO -- default-ubuntu-1604:     +	echo "ERROR:" . mysqli_error($master);
-I, [2018-08-24T19:11:33.442924 #1360]  INFO -- default-ubuntu-1604:     +}
-I, [2018-08-24T19:11:33.443132 #1360]  INFO -- default-ubuntu-1604:     +?>
-I, [2018-08-24T19:11:33.443737 #1360]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
-I, [2018-08-24T19:11:33.447591 #1360]  INFO -- default-ubuntu-1604:   * template[/var/www/html/db.php] action create
-I, [2018-08-24T19:11:33.449852 #1360]  INFO -- default-ubuntu-1604:     - create new file /var/www/html/db.php
-I, [2018-08-24T19:11:33.450809 #1360]  INFO -- default-ubuntu-1604:     - update content in file /var/www/html/db.php from none to 3106f9
-I, [2018-08-24T19:11:33.451874 #1360]  INFO -- default-ubuntu-1604:     --- /var/www/html/db.php	2018-08-24 16:11:32.072011458 +0000
-I, [2018-08-24T19:11:33.453032 #1360]  INFO -- default-ubuntu-1604:     +++ /var/www/html/.chef-db20180824-1636-ucmrzt.php	2018-08-24 16:11:32.072011458 +0000
-I, [2018-08-24T19:11:33.453908 #1360]  INFO -- default-ubuntu-1604:     @@ -1 +1,12 @@
-I, [2018-08-24T19:11:33.454614 #1360]  INFO -- default-ubuntu-1604:     +<?php
-I, [2018-08-24T19:11:33.454697 #1360]  INFO -- default-ubuntu-1604:     +$master = mysqli_connect("ec2-18-191-211-19.us-east-2.compute.amazonaws.com", "client", "client", "words");
-I, [2018-08-24T19:11:33.455079 #1360]  INFO -- default-ubuntu-1604:     +$slave = mysqli_connect("ec2-18-222-208-41.us-east-2.compute.amazonaws.com", "client", "client", "words");
-I, [2018-08-24T19:11:33.455434 #1360]  INFO -- default-ubuntu-1604:     +if (!$master){
-I, [2018-08-24T19:11:33.455493 #1360]  INFO -- default-ubuntu-1604:     +die("ERROR: Could not connect to master DB" . mysqli_connect_error());
-I, [2018-08-24T19:11:33.455531 #1360]  INFO -- default-ubuntu-1604:     +}
-I, [2018-08-24T19:11:33.456950 #1360]  INFO -- default-ubuntu-1604:     +if (!$slave){
-I, [2018-08-24T19:11:33.457040 #1360]  INFO -- default-ubuntu-1604:     +die("ERROR: Could not connect to slave DB" . mysqli_connect_error());
-I, [2018-08-24T19:11:33.457087 #1360]  INFO -- default-ubuntu-1604:     +}
-I, [2018-08-24T19:11:33.457127 #1360]  INFO -- default-ubuntu-1604:     +
-I, [2018-08-24T19:11:33.457201 #1360]  INFO -- default-ubuntu-1604:     +?>
-I, [2018-08-24T19:11:33.458328 #1360]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
-I, [2018-08-24T19:11:33.576134 #1360]  INFO -- default-ubuntu-1604:   * service[nginx] action enable (up to date)
-I, [2018-08-24T19:11:33.857793 #1360]  INFO -- default-ubuntu-1604:   * service[nginx] action restart
-I, [2018-08-24T19:11:33.857900 #1360]  INFO -- default-ubuntu-1604:     - restart service service[nginx]
-I, [2018-08-24T19:11:33.921248 #1360]  INFO -- default-ubuntu-1604: 
-I, [2018-08-24T19:11:33.922119 #1360]  INFO -- default-ubuntu-1604: Running handlers:
-I, [2018-08-24T19:11:33.922723 #1360]  INFO -- default-ubuntu-1604: Running handlers complete
-I, [2018-08-24T19:11:33.923577 #1360]  INFO -- default-ubuntu-1604: Chef Client finished, 10/14 resources updated in 01 minutes 12 seconds
-I, [2018-08-24T19:11:33.939611 #1360]  INFO -- default-ubuntu-1604: Downloading files from <default-ubuntu-1604>
-I, [2018-08-24T19:11:33.960539 #1360]  INFO -- default-ubuntu-1604: Finished converging <default-ubuntu-1604> (1m36.71s).
-I, [2018-08-24T19:11:33.961470 #1360]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
-I, [2018-08-24T19:11:33.966171 #1360]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
-I, [2018-08-24T19:11:33.966409 #1360]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
-I, [2018-08-24T19:11:34.309938 #1360]  INFO -- default-ubuntu-1604: Loaded tests from {:path=>".Users.Kirill.Downloads.temp.EPAM-tasks.Chef.chef-repo.cookbooks.web.test.integration.default"} 
-I, [2018-08-24T19:11:34.921176 #1360]  INFO -- default-ubuntu-1604: Finished verifying <default-ubuntu-1604> (0m0.95s).
-I, [2018-08-24T19:11:34.921992 #1360]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
-I, [2018-08-24T19:11:38.931876 #1360]  INFO -- default-ubuntu-1604: ==> default: Forcing shutdown of VM...
-I, [2018-08-24T19:11:40.654911 #1360]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
-I, [2018-08-24T19:11:41.029615 #1360]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
-I, [2018-08-24T19:11:41.032145 #1360]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m6.11s).
-I, [2018-08-24T19:11:41.032924 #1360]  INFO -- default-ubuntu-1604: Finished testing <default-ubuntu-1604> (2m37.01s).
+I, [2018-08-24T20:39:18.967063 #16066]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
+I, [2018-08-24T20:39:18.967596 #16066]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2018-08-24T20:39:18.968998 #16066]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m0.00s).
+I, [2018-08-24T20:39:18.969560 #16066]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
+I, [2018-08-24T20:39:18.969892 #16066]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2018-08-24T20:39:20.837061 #16066]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-08-24T20:39:21.280570 #16066]  INFO -- default-ubuntu-1604: ==> default: Importing base box 'bento/ubuntu-16.04'...
+I, [2018-08-24T20:39:38.912174 #16066]  INFO -- default-ubuntu-1604: [KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2018-08-24T20:39:39.153782 #16066]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'bento/ubuntu-16.04' is up to date...
+I, [2018-08-24T20:39:41.687013 #16066]  INFO -- default-ubuntu-1604: ==> default: Setting the name of the VM: default-ubuntu-1604_default_1535132381595_92337
+I, [2018-08-24T20:39:42.959561 #16066]  INFO -- default-ubuntu-1604: ==> default: Clearing any previously set network interfaces...
+I, [2018-08-24T20:39:43.068691 #16066]  INFO -- default-ubuntu-1604: ==> default: Preparing network interfaces based on configuration...
+I, [2018-08-24T20:39:43.069498 #16066]  INFO -- default-ubuntu-1604:     default: Adapter 1: nat
+I, [2018-08-24T20:39:43.159103 #16066]  INFO -- default-ubuntu-1604: ==> default: Forwarding ports...
+I, [2018-08-24T20:39:43.324674 #16066]  INFO -- default-ubuntu-1604:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2018-08-24T20:39:43.578690 #16066]  INFO -- default-ubuntu-1604: ==> default: Booting VM...
+I, [2018-08-24T20:39:44.207669 #16066]  INFO -- default-ubuntu-1604: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2018-08-24T20:39:44.903613 #16066]  INFO -- default-ubuntu-1604:     default: SSH address: 127.0.0.1:2222
+I, [2018-08-24T20:39:44.904183 #16066]  INFO -- default-ubuntu-1604:     default: SSH username: vagrant
+I, [2018-08-24T20:39:44.905447 #16066]  INFO -- default-ubuntu-1604:     default: SSH auth method: private key
+I, [2018-08-24T20:40:09.421140 #16066]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-08-24T20:40:09.421597 #16066]  INFO -- default-ubuntu-1604:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2018-08-24T20:40:09.421708 #16066]  INFO -- default-ubuntu-1604:     default: this with a newly generated keypair for better security.
+I, [2018-08-24T20:40:11.513900 #16066]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-08-24T20:40:11.514030 #16066]  INFO -- default-ubuntu-1604:     default: Inserting generated public key within guest...
+I, [2018-08-24T20:40:11.786672 #16066]  INFO -- default-ubuntu-1604:     default: Removing insecure key from the guest if it's present...
+I, [2018-08-24T20:40:12.005285 #16066]  INFO -- default-ubuntu-1604:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2018-08-24T20:40:13.298228 #16066]  INFO -- default-ubuntu-1604: ==> default: Machine booted and ready!
+I, [2018-08-24T20:40:13.299432 #16066]  INFO -- default-ubuntu-1604: ==> default: Checking for guest additions in VM...
+I, [2018-08-24T20:40:13.398750 #16066]  INFO -- default-ubuntu-1604:     default: The guest additions on this VM do not match the installed version of
+I, [2018-08-24T20:40:13.398933 #16066]  INFO -- default-ubuntu-1604:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2018-08-24T20:40:13.399043 #16066]  INFO -- default-ubuntu-1604:     default: prevent things such as shared folders from working properly. If you see
+I, [2018-08-24T20:40:13.399184 #16066]  INFO -- default-ubuntu-1604:     default: shared folder errors, please make sure the guest additions within the
+I, [2018-08-24T20:40:13.399344 #16066]  INFO -- default-ubuntu-1604:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2018-08-24T20:40:13.399406 #16066]  INFO -- default-ubuntu-1604:     default: your host and reload your VM.
+I, [2018-08-24T20:40:13.399460 #16066]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-08-24T20:40:13.400416 #16066]  INFO -- default-ubuntu-1604:     default: Guest Additions Version: 5.2.12
+I, [2018-08-24T20:40:13.400493 #16066]  INFO -- default-ubuntu-1604:     default: VirtualBox Version: 5.1
+I, [2018-08-24T20:40:13.402161 #16066]  INFO -- default-ubuntu-1604: ==> default: Setting hostname...
+I, [2018-08-24T20:40:14.204941 #16066]  INFO -- default-ubuntu-1604: ==> default: Mounting shared folders...
+I, [2018-08-24T20:40:14.206133 #16066]  INFO -- default-ubuntu-1604:     default: /tmp/omnibus/cache => /Users/Kirill/.kitchen/cache
+I, [2018-08-24T20:40:15.334409 #16066]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2018-08-24T20:40:19.610514 #16066]  INFO -- default-ubuntu-1604: [SSH] Established
+I, [2018-08-24T20:40:19.621777 #16066]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
+I, [2018-08-24T20:40:19.628398 #16066]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (1m0.65s).
+I, [2018-08-24T20:40:19.629147 #16066]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2018-08-24T20:40:19.634585 #16066]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2018-08-24T20:40:19.636854 #16066]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2018-08-24T20:40:19.639229 #16066]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 7.0.4...
+I, [2018-08-24T20:40:25.448830 #16066]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2018-08-24T20:40:25.461181 #16066]  INFO -- default-ubuntu-1604: Preparing data_bags
+I, [2018-08-24T20:40:25.464105 #16066]  INFO -- default-ubuntu-1604: Preparing roles
+I, [2018-08-24T20:40:25.469879 #16066]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2018-08-24T20:40:25.471111 #16066]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2018-08-24T20:40:25.513465 #16066]  INFO -- default-ubuntu-1604: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-08-24T20:40:25.519522 #16066]  INFO -- default-ubuntu-1604: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-08-24T20:40:25.519716 #16066]  INFO -- default-ubuntu-1604: Trying wget...
+I, [2018-08-24T20:40:26.797530 #16066]  INFO -- default-ubuntu-1604: Download complete.
+I, [2018-08-24T20:40:26.831646 #16066]  INFO -- default-ubuntu-1604: ubuntu 16.04 x86_64
+I, [2018-08-24T20:40:26.832986 #16066]  INFO -- default-ubuntu-1604: Getting information for chef stable  for ubuntu...
+I, [2018-08-24T20:40:26.833132 #16066]  INFO -- default-ubuntu-1604: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
+I, [2018-08-24T20:40:26.833201 #16066]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1561/metadata.txt
+I, [2018-08-24T20:40:26.834618 #16066]  INFO -- default-ubuntu-1604: trying wget...
+I, [2018-08-24T20:40:27.266250 #16066]  INFO -- default-ubuntu-1604: sha1	845b83d65443c62b11911fc83a70d6cac282f7cd
+I, [2018-08-24T20:40:27.267305 #16066]  INFO -- default-ubuntu-1604: sha256	f2578ed674189d4c303e5fece3faeb4c4a0117f5d29e5e050982a38fbaaad0e5
+I, [2018-08-24T20:40:27.268468 #16066]  INFO -- default-ubuntu-1604: url	https://packages.chef.io/files/stable/chef/14.3.37/ubuntu/16.04/chef_14.3.37-1_amd64.deb
+I, [2018-08-24T20:40:27.269492 #16066]  INFO -- default-ubuntu-1604: version	14.3.37
+I, [2018-08-24T20:40:27.273802 #16066]  INFO -- default-ubuntu-1604: downloaded metadata file looks valid...
+I, [2018-08-24T20:40:27.303110 #16066]  INFO -- default-ubuntu-1604: /tmp/omnibus/cache/chef_14.3.37-1_amd64.deb exists
+I, [2018-08-24T20:40:27.304023 #16066]  INFO -- default-ubuntu-1604: Comparing checksum with sha256sum...
+I, [2018-08-24T20:40:28.364473 #16066]  INFO -- default-ubuntu-1604: 
+I, [2018-08-24T20:40:28.365179 #16066]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-08-24T20:40:28.365287 #16066]  INFO -- default-ubuntu-1604: 
+I, [2018-08-24T20:40:28.365330 #16066]  INFO -- default-ubuntu-1604: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-08-24T20:40:28.365893 #16066]  INFO -- default-ubuntu-1604: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-08-24T20:40:28.366308 #16066]  INFO -- default-ubuntu-1604: be upgraded without warning on new releases, even to new major releases.
+I, [2018-08-24T20:40:28.366559 #16066]  INFO -- default-ubuntu-1604: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-08-24T20:40:28.366636 #16066]  INFO -- default-ubuntu-1604: CI/CD environments.
+I, [2018-08-24T20:40:28.366692 #16066]  INFO -- default-ubuntu-1604: 
+I, [2018-08-24T20:40:28.366760 #16066]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-08-24T20:40:28.366847 #16066]  INFO -- default-ubuntu-1604: 
+I, [2018-08-24T20:40:28.367421 #16066]  INFO -- default-ubuntu-1604: Installing chef 
+I, [2018-08-24T20:40:28.367506 #16066]  INFO -- default-ubuntu-1604: installing with dpkg...
+I, [2018-08-24T20:40:28.479561 #16066]  INFO -- default-ubuntu-1604: Selecting previously unselected package chef.
+I, [2018-08-24T20:40:28.967754 #16066]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 38375 files and directories currently installed.)
+I, [2018-08-24T20:40:28.971258 #16066]  INFO -- default-ubuntu-1604: Preparing to unpack .../cache/chef_14.3.37-1_amd64.deb ...
+I, [2018-08-24T20:40:28.987340 #16066]  INFO -- default-ubuntu-1604: Unpacking chef (14.3.37-1) ...
+I, [2018-08-24T20:40:48.034219 #16066]  INFO -- default-ubuntu-1604: Setting up chef (14.3.37-1) ...
+I, [2018-08-24T20:40:48.259433 #16066]  INFO -- default-ubuntu-1604: Thank you for installing Chef!
+I, [2018-08-24T20:40:48.352993 #16066]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2018-08-24T20:40:51.514723 #16066]  INFO -- default-ubuntu-1604: Starting Chef Client, version 14.3.37
+I, [2018-08-24T20:40:53.560735 #16066]  INFO -- default-ubuntu-1604: Creating a new client identity for default-ubuntu-1604 using the validator key.
+I, [2018-08-24T20:40:53.862274 #16066]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["web::default", "web::php", "web::nginx"]
+I, [2018-08-24T20:40:53.949383 #16066]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2018-08-24T20:40:53.992569 #16066]  INFO -- default-ubuntu-1604:   - web (0.1.0)
+I, [2018-08-24T20:40:54.002137 #16066]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2018-08-24T20:40:54.005327 #16066]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2018-08-24T20:40:54.031022 #16066]  INFO -- default-ubuntu-1604: Converging 9 resources
+I, [2018-08-24T20:40:54.032530 #16066]  INFO -- default-ubuntu-1604: Recipe: web::default
+I, [2018-08-24T20:40:54.039771 #16066]  INFO -- default-ubuntu-1604:   * apt_update[] action periodic
+I, [2018-08-24T20:40:54.043701 #16066]  INFO -- default-ubuntu-1604:     - update new lists of packages
+I, [2018-08-24T20:40:54.050383 #16066]  INFO -- default-ubuntu-1604:     * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2018-08-24T20:40:54.056621 #16066]  INFO -- default-ubuntu-1604:     * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2018-08-24T20:40:54.065479 #16066]  INFO -- default-ubuntu-1604:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2018-08-24T20:41:12.908232 #16066]  INFO -- default-ubuntu-1604:     * execute[apt-get -q update] action run
+I, [2018-08-24T20:41:12.911226 #16066]  INFO -- default-ubuntu-1604:       - execute apt-get -q update
+I, [2018-08-24T20:41:12.912304 #16066]  INFO -- default-ubuntu-1604:   
+I, [2018-08-24T20:41:12.913590 #16066]  INFO -- default-ubuntu-1604: Recipe: web::php
+I, [2018-08-24T20:42:03.240127 #16066]  INFO -- default-ubuntu-1604:   * apt_package[php] action install
+I, [2018-08-24T20:42:03.241875 #16066]  INFO -- default-ubuntu-1604:     - install version 1:7.0+35ubuntu6.1 of package php
+I, [2018-08-24T20:42:14.488868 #16066]  INFO -- default-ubuntu-1604:   * apt_package[php-mysql] action install
+I, [2018-08-24T20:42:14.497577 #16066]  INFO -- default-ubuntu-1604:     - install version 1:7.0+35ubuntu6.1 of package php-mysql
+I, [2018-08-24T20:42:14.498174 #16066]  INFO -- default-ubuntu-1604: Recipe: web::nginx
+I, [2018-08-24T20:42:32.403588 #16066]  INFO -- default-ubuntu-1604:   * apt_package[nginx] action install
+I, [2018-08-24T20:42:32.407050 #16066]  INFO -- default-ubuntu-1604:     - install version 1.10.3-0ubuntu0.16.04.2 of package nginx
+I, [2018-08-24T20:42:32.430815 #16066]  INFO -- default-ubuntu-1604:   * cookbook_file[/etc/nginx/sites-available/default] action create
+I, [2018-08-24T20:42:32.432255 #16066]  INFO -- default-ubuntu-1604:     - update content in file /etc/nginx/sites-available/default from 4b2b5e to 10b8fb
+I, [2018-08-24T20:42:32.434752 #16066]  INFO -- default-ubuntu-1604:     --- /etc/nginx/sites-available/default	2017-02-11 21:00:57.000000000 +0000
+I, [2018-08-24T20:42:32.438373 #16066]  INFO -- default-ubuntu-1604:     +++ /etc/nginx/sites-available/.chef-default20180824-1646-qsamwj	2018-08-24 17:42:31.097001024 +0000
+I, [2018-08-24T20:42:32.438537 #16066]  INFO -- default-ubuntu-1604:     @@ -1,87 +1,18 @@
+I, [2018-08-24T20:42:32.438636 #16066]  INFO -- default-ubuntu-1604:     -##
+I, [2018-08-24T20:42:32.438722 #16066]  INFO -- default-ubuntu-1604:     -# You should look at the following URL's in order to grasp a solid understanding
+I, [2018-08-24T20:42:32.439706 #16066]  INFO -- default-ubuntu-1604:     -# of Nginx configuration files in order to fully unleash the power of Nginx.
+I, [2018-08-24T20:42:32.439818 #16066]  INFO -- default-ubuntu-1604:     -# http://wiki.nginx.org/Pitfalls
+I, [2018-08-24T20:42:32.439883 #16066]  INFO -- default-ubuntu-1604:     -# http://wiki.nginx.org/QuickStart
+I, [2018-08-24T20:42:32.443102 #16066]  INFO -- default-ubuntu-1604:     -# http://wiki.nginx.org/Configuration
+I, [2018-08-24T20:42:32.449358 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.449491 #16066]  INFO -- default-ubuntu-1604:     -# Generally, you will want to move this file somewhere, and start with a clean
+I, [2018-08-24T20:42:32.449559 #16066]  INFO -- default-ubuntu-1604:     -# file but keep this around for reference. Or just disable in sites-enabled.
+I, [2018-08-24T20:42:32.449687 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.450836 #16066]  INFO -- default-ubuntu-1604:     -# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
+I, [2018-08-24T20:42:32.450923 #16066]  INFO -- default-ubuntu-1604:     -##
+I, [2018-08-24T20:42:32.450985 #16066]  INFO -- default-ubuntu-1604:     -
+I, [2018-08-24T20:42:32.452635 #16066]  INFO -- default-ubuntu-1604:     -# Default server configuration
+I, [2018-08-24T20:42:32.452700 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.452755 #16066]  INFO -- default-ubuntu-1604:      server {
+I, [2018-08-24T20:42:32.454573 #16066]  INFO -- default-ubuntu-1604:     -	listen 80 default_server;
+I, [2018-08-24T20:42:32.454791 #16066]  INFO -- default-ubuntu-1604:     -	listen [::]:80 default_server;
+I, [2018-08-24T20:42:32.454871 #16066]  INFO -- default-ubuntu-1604:     +        listen 8080 default_server;
+I, [2018-08-24T20:42:32.454920 #16066]  INFO -- default-ubuntu-1604:     +        root /var/www/html;
+I, [2018-08-24T20:42:32.454964 #16066]  INFO -- default-ubuntu-1604:     +        index index.php
+I, [2018-08-24T20:42:32.455006 #16066]  INFO -- default-ubuntu-1604:      
+I, [2018-08-24T20:42:32.455049 #16066]  INFO -- default-ubuntu-1604:     -	# SSL configuration
+I, [2018-08-24T20:42:32.455091 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.455133 #16066]  INFO -- default-ubuntu-1604:     -	# listen 443 ssl default_server;
+I, [2018-08-24T20:42:32.455177 #16066]  INFO -- default-ubuntu-1604:     -	# listen [::]:443 ssl default_server;
+I, [2018-08-24T20:42:32.455222 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.455269 #16066]  INFO -- default-ubuntu-1604:     -	# Note: You should disable gzip for SSL traffic.
+I, [2018-08-24T20:42:32.465068 #16066]  INFO -- default-ubuntu-1604:     -	# See: https://bugs.debian.org/773332
+I, [2018-08-24T20:42:32.465202 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.465278 #16066]  INFO -- default-ubuntu-1604:     -	# Read up on ssl_ciphers to ensure a secure configuration.
+I, [2018-08-24T20:42:32.465362 #16066]  INFO -- default-ubuntu-1604:     -	# See: https://bugs.debian.org/765782
+I, [2018-08-24T20:42:32.465417 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.465482 #16066]  INFO -- default-ubuntu-1604:     -	# Self signed certs generated by the ssl-cert package
+I, [2018-08-24T20:42:32.465539 #16066]  INFO -- default-ubuntu-1604:     -	# Don't use them in a production server!
+I, [2018-08-24T20:42:32.465590 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.465676 #16066]  INFO -- default-ubuntu-1604:     -	# include snippets/snakeoil.conf;
+I, [2018-08-24T20:42:32.465746 #16066]  INFO -- default-ubuntu-1604:     +        server_name localhost;
+I, [2018-08-24T20:42:32.465806 #16066]  INFO -- default-ubuntu-1604:      
+I, [2018-08-24T20:42:32.465860 #16066]  INFO -- default-ubuntu-1604:     -	root /var/www/html;
+I, [2018-08-24T20:42:32.465989 #16066]  INFO -- default-ubuntu-1604:     +        location / {
+I, [2018-08-24T20:42:32.466051 #16066]  INFO -- default-ubuntu-1604:     +                try_files $uri $uri/ =404;
+I, [2018-08-24T20:42:32.466140 #16066]  INFO -- default-ubuntu-1604:     +        }
+I, [2018-08-24T20:42:32.466233 #16066]  INFO -- default-ubuntu-1604:      
+I, [2018-08-24T20:42:32.466286 #16066]  INFO -- default-ubuntu-1604:     -	# Add index.php to the list if you are using PHP
+I, [2018-08-24T20:42:32.466339 #16066]  INFO -- default-ubuntu-1604:     -	index index.html index.htm index.nginx-debian.html;
+I, [2018-08-24T20:42:32.466390 #16066]  INFO -- default-ubuntu-1604:     +        location ~ \.php$ {
+I, [2018-08-24T20:42:32.466447 #16066]  INFO -- default-ubuntu-1604:     +                include snippets/fastcgi-php.conf;
+I, [2018-08-24T20:42:32.466498 #16066]  INFO -- default-ubuntu-1604:     +                fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+I, [2018-08-24T20:42:32.466549 #16066]  INFO -- default-ubuntu-1604:     +        }
+I, [2018-08-24T20:42:32.466603 #16066]  INFO -- default-ubuntu-1604:      
+I, [2018-08-24T20:42:32.466650 #16066]  INFO -- default-ubuntu-1604:     -	server_name _;
+I, [2018-08-24T20:42:32.466696 #16066]  INFO -- default-ubuntu-1604:     -
+I, [2018-08-24T20:42:32.466741 #16066]  INFO -- default-ubuntu-1604:     -	location / {
+I, [2018-08-24T20:42:32.466793 #16066]  INFO -- default-ubuntu-1604:     -		# First attempt to serve request as file, then
+I, [2018-08-24T20:42:32.466842 #16066]  INFO -- default-ubuntu-1604:     -		# as directory, then fall back to displaying a 404.
+I, [2018-08-24T20:42:32.466891 #16066]  INFO -- default-ubuntu-1604:     -		try_files $uri $uri/ =404;
+I, [2018-08-24T20:42:32.466937 #16066]  INFO -- default-ubuntu-1604:     -	}
+I, [2018-08-24T20:42:32.467052 #16066]  INFO -- default-ubuntu-1604:     -
+I, [2018-08-24T20:42:32.467180 #16066]  INFO -- default-ubuntu-1604:     -	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+I, [2018-08-24T20:42:32.467249 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.467465 #16066]  INFO -- default-ubuntu-1604:     -	#location ~ \.php$ {
+I, [2018-08-24T20:42:32.467531 #16066]  INFO -- default-ubuntu-1604:     -	#	include snippets/fastcgi-php.conf;
+I, [2018-08-24T20:42:32.467583 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.467636 #16066]  INFO -- default-ubuntu-1604:     -	#	# With php7.0-cgi alone:
+I, [2018-08-24T20:42:32.467686 #16066]  INFO -- default-ubuntu-1604:     -	#	fastcgi_pass 127.0.0.1:9000;
+I, [2018-08-24T20:42:32.467743 #16066]  INFO -- default-ubuntu-1604:     -	#	# With php7.0-fpm:
+I, [2018-08-24T20:42:32.467796 #16066]  INFO -- default-ubuntu-1604:     -	#	fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+I, [2018-08-24T20:42:32.467845 #16066]  INFO -- default-ubuntu-1604:     -	#}
+I, [2018-08-24T20:42:32.467893 #16066]  INFO -- default-ubuntu-1604:     -
+I, [2018-08-24T20:42:32.467945 #16066]  INFO -- default-ubuntu-1604:     -	# deny access to .htaccess files, if Apache's document root
+I, [2018-08-24T20:42:32.468070 #16066]  INFO -- default-ubuntu-1604:     -	# concurs with nginx's one
+I, [2018-08-24T20:42:32.468120 #16066]  INFO -- default-ubuntu-1604:     -	#
+I, [2018-08-24T20:42:32.468168 #16066]  INFO -- default-ubuntu-1604:     -	#location ~ /\.ht {
+I, [2018-08-24T20:42:32.468216 #16066]  INFO -- default-ubuntu-1604:     -	#	deny all;
+I, [2018-08-24T20:42:32.470220 #16066]  INFO -- default-ubuntu-1604:     -	#}
+I, [2018-08-24T20:42:32.470346 #16066]  INFO -- default-ubuntu-1604:      }
+I, [2018-08-24T20:42:32.470418 #16066]  INFO -- default-ubuntu-1604:     -
+I, [2018-08-24T20:42:32.470490 #16066]  INFO -- default-ubuntu-1604:     -
+I, [2018-08-24T20:42:32.470544 #16066]  INFO -- default-ubuntu-1604:     -# Virtual Host configuration for example.com
+I, [2018-08-24T20:42:32.470595 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.470659 #16066]  INFO -- default-ubuntu-1604:     -# You can move that to a different file under sites-available/ and symlink that
+I, [2018-08-24T20:42:32.470714 #16066]  INFO -- default-ubuntu-1604:     -# to sites-enabled/ to enable it.
+I, [2018-08-24T20:42:32.470767 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.471871 #16066]  INFO -- default-ubuntu-1604:     -#server {
+I, [2018-08-24T20:42:32.471988 #16066]  INFO -- default-ubuntu-1604:     -#	listen 80;
+I, [2018-08-24T20:42:32.472070 #16066]  INFO -- default-ubuntu-1604:     -#	listen [::]:80;
+I, [2018-08-24T20:42:32.472138 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.472202 #16066]  INFO -- default-ubuntu-1604:     -#	server_name example.com;
+I, [2018-08-24T20:42:32.472261 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.472313 #16066]  INFO -- default-ubuntu-1604:     -#	root /var/www/example.com;
+I, [2018-08-24T20:42:32.472373 #16066]  INFO -- default-ubuntu-1604:     -#	index index.html;
+I, [2018-08-24T20:42:32.472424 #16066]  INFO -- default-ubuntu-1604:     -#
+I, [2018-08-24T20:42:32.472474 #16066]  INFO -- default-ubuntu-1604:     -#	location / {
+I, [2018-08-24T20:42:32.472526 #16066]  INFO -- default-ubuntu-1604:     -#		try_files $uri $uri/ =404;
+I, [2018-08-24T20:42:32.472575 #16066]  INFO -- default-ubuntu-1604:     -#	}
+I, [2018-08-24T20:42:32.475845 #16066]  INFO -- default-ubuntu-1604:     -#}
+I, [2018-08-24T20:42:32.482395 #16066]  INFO -- default-ubuntu-1604:   * cookbook_file[/var/www/html/index.php] action create
+I, [2018-08-24T20:42:32.485956 #16066]  INFO -- default-ubuntu-1604:     - create new file /var/www/html/index.php
+I, [2018-08-24T20:42:32.487229 #16066]  INFO -- default-ubuntu-1604:     - update content in file /var/www/html/index.php from none to e8610a
+I, [2018-08-24T20:42:32.490324 #16066]  INFO -- default-ubuntu-1604:     --- /var/www/html/index.php	2018-08-24 17:42:31.157031022 +0000
+I, [2018-08-24T20:42:32.491490 #16066]  INFO -- default-ubuntu-1604:     +++ /var/www/html/.chef-index20180824-1646-19s8l3i.php	2018-08-24 17:42:31.157031022 +0000
+I, [2018-08-24T20:42:32.491586 #16066]  INFO -- default-ubuntu-1604:     @@ -1 +1,36 @@
+I, [2018-08-24T20:42:32.491719 #16066]  INFO -- default-ubuntu-1604:     +<html>
+I, [2018-08-24T20:42:32.491789 #16066]  INFO -- default-ubuntu-1604:     +<head>
+I, [2018-08-24T20:42:32.491846 #16066]  INFO -- default-ubuntu-1604:     +	<meta charset="UTF-8">
+I, [2018-08-24T20:42:32.492553 #16066]  INFO -- default-ubuntu-1604:     +	<title>My awesome app</title>
+I, [2018-08-24T20:42:32.492659 #16066]  INFO -- default-ubuntu-1604:     +</head>
+I, [2018-08-24T20:42:32.492715 #16066]  INFO -- default-ubuntu-1604:     +<body>
+I, [2018-08-24T20:42:32.492766 #16066]  INFO -- default-ubuntu-1604:     +	<h1 align=center>Hello there!</h1>
+I, [2018-08-24T20:42:32.495114 #16066]  INFO -- default-ubuntu-1604:     +	<h2 align=center>Here you can see the last 3 words from the DB:</h2>
+I, [2018-08-24T20:42:32.498457 #16066]  INFO -- default-ubuntu-1604:     +	<?php
+I, [2018-08-24T20:42:32.498573 #16066]  INFO -- default-ubuntu-1604:     +	// db connection
+I, [2018-08-24T20:42:32.498642 #16066]  INFO -- default-ubuntu-1604:     +	include_once('db.php');
+I, [2018-08-24T20:42:32.498738 #16066]  INFO -- default-ubuntu-1604:     +
+I, [2018-08-24T20:42:32.498795 #16066]  INFO -- default-ubuntu-1604:     +	// show last 3 words from db
+I, [2018-08-24T20:42:32.498831 #16066]  INFO -- default-ubuntu-1604:     +	$get = "SELECT word FROM main ORDER BY id DESC LIMIT 3";
+I, [2018-08-24T20:42:32.498871 #16066]  INFO -- default-ubuntu-1604:     +	$result = mysqli_query($slave, $get);
+I, [2018-08-24T20:42:32.498912 #16066]  INFO -- default-ubuntu-1604:     +
+I, [2018-08-24T20:42:32.498961 #16066]  INFO -- default-ubuntu-1604:     +	while ($arr = $result->fetch_assoc()){
+I, [2018-08-24T20:42:32.499015 #16066]  INFO -- default-ubuntu-1604:     +	echo "<h3 align=center style='color:blue'>" . $arr['word'] . "</h3>";
+I, [2018-08-24T20:42:32.499066 #16066]  INFO -- default-ubuntu-1604:     +	}
+I, [2018-08-24T20:42:32.499114 #16066]  INFO -- default-ubuntu-1604:     +	?>
+I, [2018-08-24T20:42:32.499162 #16066]  INFO -- default-ubuntu-1604:     +	<br><br>
+I, [2018-08-24T20:42:32.500251 #16066]  INFO -- default-ubuntu-1604:     +	<h2 align=center>Add word to the DB</h2>
+I, [2018-08-24T20:42:32.500359 #16066]  INFO -- default-ubuntu-1604:     +	<form action="add.php" method ="post">
+I, [2018-08-24T20:42:32.500421 #16066]  INFO -- default-ubuntu-1604:     +		<p align=center>
+I, [2018-08-24T20:42:32.500480 #16066]  INFO -- default-ubuntu-1604:     +		<input type="text" name="newword" maxlength="50"><br>
+I, [2018-08-24T20:42:32.500536 #16066]  INFO -- default-ubuntu-1604:     +		<input type="submit" value="ADD">
+I, [2018-08-24T20:42:32.500593 #16066]  INFO -- default-ubuntu-1604:     +		</p>
+I, [2018-08-24T20:42:32.501847 #16066]  INFO -- default-ubuntu-1604:     +	</form>
+I, [2018-08-24T20:42:32.503458 #16066]  INFO -- default-ubuntu-1604:     +
+I, [2018-08-24T20:42:32.504923 #16066]  INFO -- default-ubuntu-1604:     +	<?php
+I, [2018-08-24T20:42:32.507215 #16066]  INFO -- default-ubuntu-1604:     +	if($_GET['msg']){
+I, [2018-08-24T20:42:32.507395 #16066]  INFO -- default-ubuntu-1604:     +	echo "<h3 align=center style='color:green'>The word " . $_GET['msg'] . " added!</h3>";
+I, [2018-08-24T20:42:32.507472 #16066]  INFO -- default-ubuntu-1604:     +	} ?>
+I, [2018-08-24T20:42:32.507523 #16066]  INFO -- default-ubuntu-1604:     +</body>
+I, [2018-08-24T20:42:32.516559 #16066]  INFO -- default-ubuntu-1604:     +</html>
+I, [2018-08-24T20:42:32.518481 #16066]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
+I, [2018-08-24T20:42:32.527308 #16066]  INFO -- default-ubuntu-1604:   * cookbook_file[/var/www/html/add.php] action create
+I, [2018-08-24T20:42:32.532940 #16066]  INFO -- default-ubuntu-1604:     - create new file /var/www/html/add.php
+I, [2018-08-24T20:42:32.536270 #16066]  INFO -- default-ubuntu-1604:     - update content in file /var/www/html/add.php from none to e200e7
+I, [2018-08-24T20:42:32.538865 #16066]  INFO -- default-ubuntu-1604:     --- /var/www/html/add.php	2018-08-24 17:42:31.201053020 +0000
+I, [2018-08-24T20:42:32.540628 #16066]  INFO -- default-ubuntu-1604:     +++ /var/www/html/.chef-add20180824-1646-e1tgf0.php	2018-08-24 17:42:31.201053020 +0000
+I, [2018-08-24T20:42:32.540765 #16066]  INFO -- default-ubuntu-1604:     @@ -1 +1,14 @@
+I, [2018-08-24T20:42:32.540858 #16066]  INFO -- default-ubuntu-1604:     +<?php
+I, [2018-08-24T20:42:32.541477 #16066]  INFO -- default-ubuntu-1604:     +
+I, [2018-08-24T20:42:32.542030 #16066]  INFO -- default-ubuntu-1604:     +include_once('db.php');
+I, [2018-08-24T20:42:32.542129 #16066]  INFO -- default-ubuntu-1604:     +
+I, [2018-08-24T20:42:32.542188 #16066]  INFO -- default-ubuntu-1604:     +$newword = mysqli_real_escape_string($master, $_REQUEST['newword']);
+I, [2018-08-24T20:42:32.542729 #16066]  INFO -- default-ubuntu-1604:     +
+I, [2018-08-24T20:42:32.542814 #16066]  INFO -- default-ubuntu-1604:     +$add = "INSERT INTO main (word) VALUES ('$newword')";
+I, [2018-08-24T20:42:32.543586 #16066]  INFO -- default-ubuntu-1604:     +if(mysqli_query($master, $add)){
+I, [2018-08-24T20:42:32.543660 #16066]  INFO -- default-ubuntu-1604:     +	header("Location: .?msg=$newword");
+I, [2018-08-24T20:42:32.543702 #16066]  INFO -- default-ubuntu-1604:     +} else{
+I, [2018-08-24T20:42:32.543737 #16066]  INFO -- default-ubuntu-1604:     +	echo "ERROR:" . mysqli_error($master);
+I, [2018-08-24T20:42:32.543768 #16066]  INFO -- default-ubuntu-1604:     +}
+I, [2018-08-24T20:42:32.548037 #16066]  INFO -- default-ubuntu-1604:     +?>
+I, [2018-08-24T20:42:32.552280 #16066]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
+I, [2018-08-24T20:42:32.566843 #16066]  INFO -- default-ubuntu-1604:   * template[/var/www/html/db.php] action create
+I, [2018-08-24T20:42:32.571032 #16066]  INFO -- default-ubuntu-1604:     - create new file /var/www/html/db.php
+I, [2018-08-24T20:42:32.572113 #16066]  INFO -- default-ubuntu-1604:     - update content in file /var/www/html/db.php from none to 3106f9
+I, [2018-08-24T20:42:32.574416 #16066]  INFO -- default-ubuntu-1604:     --- /var/www/html/db.php	2018-08-24 17:42:31.241073019 +0000
+I, [2018-08-24T20:42:32.575885 #16066]  INFO -- default-ubuntu-1604:     +++ /var/www/html/.chef-db20180824-1646-ak4irs.php	2018-08-24 17:42:31.241073019 +0000
+I, [2018-08-24T20:42:32.577965 #16066]  INFO -- default-ubuntu-1604:     @@ -1 +1,12 @@
+I, [2018-08-24T20:42:32.578205 #16066]  INFO -- default-ubuntu-1604:     +<?php
+I, [2018-08-24T20:42:32.578381 #16066]  INFO -- default-ubuntu-1604:     +$master = mysqli_connect("ec2-18-191-211-19.us-east-2.compute.amazonaws.com", "client", "client", "words");
+I, [2018-08-24T20:42:32.578548 #16066]  INFO -- default-ubuntu-1604:     +$slave = mysqli_connect("ec2-18-222-208-41.us-east-2.compute.amazonaws.com", "client", "client", "words");
+I, [2018-08-24T20:42:32.578662 #16066]  INFO -- default-ubuntu-1604:     +if (!$master){
+I, [2018-08-24T20:42:32.578733 #16066]  INFO -- default-ubuntu-1604:     +die("ERROR: Could not connect to master DB" . mysqli_connect_error());
+I, [2018-08-24T20:42:32.579581 #16066]  INFO -- default-ubuntu-1604:     +}
+I, [2018-08-24T20:42:32.579697 #16066]  INFO -- default-ubuntu-1604:     +if (!$slave){
+I, [2018-08-24T20:42:32.579755 #16066]  INFO -- default-ubuntu-1604:     +die("ERROR: Could not connect to slave DB" . mysqli_connect_error());
+I, [2018-08-24T20:42:32.582340 #16066]  INFO -- default-ubuntu-1604:     +}
+I, [2018-08-24T20:42:32.582454 #16066]  INFO -- default-ubuntu-1604:     +
+I, [2018-08-24T20:42:32.582512 #16066]  INFO -- default-ubuntu-1604:     +?>
+I, [2018-08-24T20:42:32.584559 #16066]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
+I, [2018-08-24T20:42:32.763851 #16066]  INFO -- default-ubuntu-1604:   * service[nginx] action enable (up to date)
+I, [2018-08-24T20:42:33.139456 #16066]  INFO -- default-ubuntu-1604:   * service[nginx] action restart
+I, [2018-08-24T20:42:33.139552 #16066]  INFO -- default-ubuntu-1604:     - restart service service[nginx]
+I, [2018-08-24T20:42:33.301351 #16066]  INFO -- default-ubuntu-1604: 
+I, [2018-08-24T20:42:33.302928 #16066]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2018-08-24T20:42:33.305395 #16066]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2018-08-24T20:42:33.306109 #16066]  INFO -- default-ubuntu-1604: Chef Client finished, 10/14 resources updated in 01 minutes 41 seconds
+I, [2018-08-24T20:42:33.333241 #16066]  INFO -- default-ubuntu-1604: Downloading files from <default-ubuntu-1604>
+I, [2018-08-24T20:42:33.358393 #16066]  INFO -- default-ubuntu-1604: Finished converging <default-ubuntu-1604> (2m13.71s).
+I, [2018-08-24T20:42:33.359285 #16066]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
+I, [2018-08-24T20:42:33.362674 #16066]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
+I, [2018-08-24T20:42:33.362902 #16066]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
+I, [2018-08-24T20:42:33.710719 #16066]  INFO -- default-ubuntu-1604: Loaded tests from {:path=>".Users.Kirill.Downloads.temp.EPAM-tasks.Chef.chef-repo.cookbooks.web.test.integration.default"} 
+I, [2018-08-24T20:42:34.620584 #16066]  INFO -- default-ubuntu-1604: Finished verifying <default-ubuntu-1604> (0m1.26s).
+I, [2018-08-24T20:42:34.622334 #16066]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2018-08-24T20:42:43.074770 #16066]  INFO -- default-ubuntu-1604: ==> default: Forcing shutdown of VM...
+I, [2018-08-24T20:42:44.841346 #16066]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
+I, [2018-08-24T20:42:45.461141 #16066]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
+I, [2018-08-24T20:42:45.463151 #16066]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m10.84s).
+I, [2018-08-24T20:42:45.464230 #16066]  INFO -- default-ubuntu-1604: Finished testing <default-ubuntu-1604> (3m26.49s).
