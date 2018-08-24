@@ -1,5 +1,8 @@
-default['master_dns'] = 'ec2-13-58-84-22.us-east-2.compute.amazonaws.com'
-default['slave_dns'] = 'ec2-18-191-249-104.us-east-2.compute.amazonaws.com'
+### Master DB server node name
 default['master_name'] = 'db-master'
+
+### Slave DB server node name
 default['slave_name'] = 'db-slave'
+
+### Passwords data bag name
 default['passwords_databag'] = 'passwords.json'

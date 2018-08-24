@@ -15,7 +15,7 @@ describe 'lb::nginx' do
   end
 
   it 'creates nginx config' do
-    expect(chef_run).to create_cookbook_file('/etc/nginx/sites-available/default').with(mode: '0644')
+    expect(chef_run).to create_template('/etc/nginx/sites-available/default').with(mode: '0644')
   end
 
   it 'enables the nginx service' do

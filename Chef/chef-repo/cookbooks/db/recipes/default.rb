@@ -1,7 +1,9 @@
-execute 'update-upgrade' do
-  command 'sudo apt update -y && sudo apt upgrade -y'
-end
+### Update repos
+apt_update
 
+### Run general mysql setup
 include_recipe '::mysql_basic'
-include_recipe '::master' if node['name'] == "#{node['master_name']}"
-include_recipe '::slave' if node['name'] == "#{node['slave_name']}"
+
+### Run final mysql setup for master or slave
+include_recipe '::master' if node.name == node['master_name']
+include_recipe '::slave' if node.name == node['slave_name']

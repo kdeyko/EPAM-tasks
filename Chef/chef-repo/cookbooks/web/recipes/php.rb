@@ -1,8 +1,3 @@
-#
-# Cookbook:: web
-# Recipe:: php
-#
-# Copyright:: 2018, The Authors, All Rights Reserved.
-
+### Install PHP and PHP-MySQL packages
 package 'php'
 package 'php-mysql'

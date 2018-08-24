@@ -1,9 +1,3 @@
-#
-# Cookbook:: web
-# Spec:: php
-#
-# Copyright:: 2018, The Authors, All Rights Reserved.
-
 require 'spec_helper'
 
 describe 'web::php' do

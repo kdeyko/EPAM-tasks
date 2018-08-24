@@ -1,7 +1,11 @@
-passwords = data_bag_item('mysql', "#{node['passwords_databag']}")
+### Attach data bags
+passwords = data_bag_item('mysql', node['passwords_databag'])
+servers = data_bag_item('mysql', 'servers.json')
 
+### Run recipe which flushes privileges for new MySQL users
 include_recipe '::mysql_flush'
 
+### Adjusting mysqld config for slave, then restart mysql service
 execute 'set server id' do
   command "sed -i 's/server-id.*/server-id = 2/' /etc/mysql-default/conf.d/default.cnf"
 end
@@ -13,6 +17,7 @@ relay-log = /var/log/mysql-default/mysql-relay-bin.log\
   notifies :restart, 'mysql_service[default]', :immediately
 end
 
+### Get master replication values from master node, apply them to slave, start slave
 ruby_block 'start_replication' do
   block do
     require 'mixlib/shellout'
@@ -22,7 +27,7 @@ ruby_block 'start_replication' do
 
     command = %(
       CHANGE MASTER TO
-      MASTER_HOST="#{node['master_dns']}",
+      MASTER_HOST="#{servers['master']}",
       MASTER_USER="repl",
       MASTER_PASSWORD="#{passwords['repl']}",
       MASTER_LOG_FILE="#{file}",

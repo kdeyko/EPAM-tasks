@@ -1,9 +1,3 @@
-#
-# Cookbook:: web
-# Spec:: default
-#
-# Copyright:: 2018, The Authors, All Rights Reserved.
-
 require 'spec_helper'
 
 describe 'web::default' do
@@ -12,7 +6,7 @@ describe 'web::default' do
     runner.converge(described_recipe)
   end
 
-  it 'executes cmd' do
-    expect(chef_run).to run_execute('sudo apt update -y && sudo apt upgrade -y')
+  it 'updates apt repo' do
+    expect(chef_run).to periodic_apt_update('')
   end
 end

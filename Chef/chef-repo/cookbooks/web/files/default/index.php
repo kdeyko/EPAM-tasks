@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Test PHP</title>
+	<title>My awesome app</title>
 </head>
 <body>
 	<h1 align=center>Hello there!</h1>

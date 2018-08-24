@@ -1,0 +1,11 @@
+<?php
+$master = mysqli_connect("<%= @master_srv %>", "client", "<%= @client_pass %>", "words");
+$slave = mysqli_connect("<%= @slave_srv %>", "client", "<%= @client_pass %>", "words");
+if (!$master){
+die("ERROR: Could not connect to master DB" . mysqli_connect_error());
+}
+if (!$slave){
+die("ERROR: Could not connect to slave DB" . mysqli_connect_error());
+}
+
+?>

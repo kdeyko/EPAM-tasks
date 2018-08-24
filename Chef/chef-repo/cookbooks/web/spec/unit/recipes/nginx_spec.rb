@@ -1,9 +1,3 @@
-#
-# Cookbook:: web
-# Spec:: nginx
-#
-# Copyright:: 2018, The Authors, All Rights Reserved.
-
 require 'spec_helper'
 
 describe 'web::nginx' do
@@ -24,16 +18,16 @@ describe 'web::nginx' do
     expect(chef_run).to create_cookbook_file('/etc/nginx/sites-available/default').with(mode: '0644')
   end
 
-  it 'creates nginx config' do
+  it 'creates index.php' do
     expect(chef_run).to create_cookbook_file('/var/www/html/index.php').with(mode: '0644')
   end
 
-  it 'creates nginx config' do
-    expect(chef_run).to create_cookbook_file('/var/www/html/db.php').with(mode: '0644')
+  it 'creates add.php' do
+    expect(chef_run).to create_cookbook_file('/var/www/html/add.php').with(mode: '0644')
   end
 
-  it 'creates nginx config' do
-    expect(chef_run).to create_cookbook_file('/var/www/html/add.php').with(mode: '0644')
+  it 'creates db.php' do
+    expect(chef_run).to create_template('/var/www/html/db.php').with(mode: '0644')
   end
 
   it 'enables the nginx service' do

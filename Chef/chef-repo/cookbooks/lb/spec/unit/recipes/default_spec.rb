@@ -6,7 +6,7 @@ describe 'lb::default' do
     runner.converge(described_recipe)
   end
 
-  it 'executes cmd' do
-    expect(chef_run).to run_execute('sudo apt update -y && sudo apt upgrade -y')
+  it 'updates apt repo' do
+    expect(chef_run).to periodic_apt_update('')
   end
 end

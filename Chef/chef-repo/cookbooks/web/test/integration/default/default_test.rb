@@ -19,10 +19,6 @@ describe port(8080) do
   it { should be_listening }
 end
 
-describe command('curl http://localhost:8080') do
-  its('stdout') { should match 'Hello there!' }
-end
-
 describe file('/etc/nginx/sites-available/default') do
   it { should exist }
   its('mode') { should cmp '0644' }
