@@ -1,0 +1,2502 @@
+[
+  {
+    "name": "Побег из Шоушенка",
+    "pos": 1,
+    "rating": 9.2,
+    "director": "Frank Darabont",
+    "actors": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ]
+  },
+  {
+    "name": "Крёстный отец",
+    "pos": 2,
+    "rating": 9.2,
+    "director": "Francis Ford Coppola",
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino"
+    ]
+  },
+  {
+    "name": "Крёстный отец 2",
+    "pos": 3,
+    "rating": 9.0,
+    "director": "Francis Ford Coppola",
+    "actors": [
+      "Al Pacino",
+      "Robert De Niro"
+    ]
+  },
+  {
+    "name": "Тёмный рыцарь",
+    "pos": 4,
+    "rating": 9.0,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger"
+    ]
+  },
+  {
+    "name": "12 рaзгневанных мужчин",
+    "pos": 5,
+    "rating": 8.9,
+    "director": "Sidney Lumet",
+    "actors": [
+      "Henry Fonda",
+      "Lee J. Cobb"
+    ]
+  },
+  {
+    "name": "Список Шиндлера",
+    "pos": 6,
+    "rating": 8.9,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Liam Neeson",
+      "Ralph Fiennes"
+    ]
+  },
+  {
+    "name": "Властелин колец: Возвращение короля",
+    "pos": 7,
+    "rating": 8.9,
+    "director": "Peter Jackson",
+    "actors": [
+      "Elijah Wood",
+      "Viggo Mortensen"
+    ]
+  },
+  {
+    "name": "Криминальное чтиво",
+    "pos": 8,
+    "rating": 8.9,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "John Travolta",
+      "Uma Thurman"
+    ]
+  },
+  {
+    "name": "Хороший, плохой, злой",
+    "pos": 9,
+    "rating": 8.8,
+    "director": "Sergio Leone",
+    "actors": [
+      "Clint Eastwood",
+      "Eli Wallach"
+    ]
+  },
+  {
+    "name": "Бойцовский клуб",
+    "pos": 10,
+    "rating": 8.8,
+    "director": "David Fincher",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  },
+  {
+    "name": "Властелин колец: Братство кольца",
+    "pos": 11,
+    "rating": 8.8,
+    "director": "Peter Jackson",
+    "actors": [
+      "Elijah Wood",
+      "Ian McKellen"
+    ]
+  },
+  {
+    "name": "Форрест Гамп",
+    "pos": 12,
+    "rating": 8.7,
+    "director": "Robert Zemeckis",
+    "actors": [
+      "Tom Hanks",
+      "Robin Wright"
+    ]
+  },
+  {
+    "name": "Звёздные войны. Эпизод 5: Империя наносит ответный удар",
+    "pos": 13,
+    "rating": 8.7,
+    "director": "Irvin Kershner",
+    "actors": [
+      "Mark Hamill",
+      "Harrison Ford"
+    ]
+  },
+  {
+    "name": "Начало",
+    "pos": 14,
+    "rating": 8.7,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt"
+    ]
+  },
+  {
+    "name": "Властелин колец: Две крепости",
+    "pos": 15,
+    "rating": 8.7,
+    "director": "Peter Jackson",
+    "actors": [
+      "Elijah Wood",
+      "Ian McKellen"
+    ]
+  },
+  {
+    "name": "One Flew Over the Cuckoo's Nest",
+    "pos": 16,
+    "rating": 8.7,
+    "director": "Milos Forman",
+    "actors": [
+      "Jack Nicholson",
+      "Louise Fletcher"
+    ]
+  },
+  {
+    "name": "Славные парни",
+    "pos": 17,
+    "rating": 8.7,
+    "director": "Martin Scorsese",
+    "actors": [
+      "Robert De Niro",
+      "Ray Liotta"
+    ]
+  },
+  {
+    "name": "Матрица",
+    "pos": 18,
+    "rating": 8.6,
+    "director": "Lana Wachowski",
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne"
+    ]
+  },
+  {
+    "name": "Семь самураев",
+    "pos": 19,
+    "rating": 8.6,
+    "director": "Akira Kurosawa",
+    "actors": [
+      "Toshirô Mifune",
+      "Takashi Shimura"
+    ]
+  },
+  {
+    "name": "Город Бога",
+    "pos": 20,
+    "rating": 8.6,
+    "director": "Fernando Meirelles",
+    "actors": [
+      "Alexandre Rodrigues",
+      "Leandro Firmino"
+    ]
+  },
+  {
+    "name": "Звёздные войны. Эпизод 4: Новая надежда",
+    "pos": 21,
+    "rating": 8.6,
+    "director": "George Lucas",
+    "actors": [
+      "Mark Hamill",
+      "Harrison Ford"
+    ]
+  },
+  {
+    "name": "Семь",
+    "pos": 22,
+    "rating": 8.6,
+    "director": "David Fincher",
+    "actors": [
+      "Morgan Freeman",
+      "Brad Pitt"
+    ]
+  },
+  {
+    "name": "Молчание ягнят",
+    "pos": 23,
+    "rating": 8.6,
+    "director": "Jonathan Demme",
+    "actors": [
+      "Jodie Foster",
+      "Anthony Hopkins"
+    ]
+  },
+  {
+    "name": "Эта замечательная жизнь",
+    "pos": 24,
+    "rating": 8.6,
+    "director": "Frank Capra",
+    "actors": [
+      "James Stewart",
+      "Donna Reed"
+    ]
+  },
+  {
+    "name": "Жизнь прекрасна",
+    "pos": 25,
+    "rating": 8.6,
+    "director": "Roberto Benigni",
+    "actors": [
+      "Roberto Benigni",
+      "Nicoletta Braschi"
+    ]
+  },
+  {
+    "name": "Подозрительные лица",
+    "pos": 26,
+    "rating": 8.5,
+    "director": "Bryan Singer",
+    "actors": [
+      "Kevin Spacey",
+      "Gabriel Byrne"
+    ]
+  },
+  {
+    "name": "Унесённые призраками",
+    "pos": 27,
+    "rating": 8.5,
+    "director": "Hayao Miyazaki",
+    "actors": [
+      "Daveigh Chase",
+      "Suzanne Pleshette"
+    ]
+  },
+  {
+    "name": "Спасти рядового Райана",
+    "pos": 28,
+    "rating": 8.5,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Tom Hanks",
+      "Matt Damon"
+    ]
+  },
+  {
+    "name": "Леон",
+    "pos": 29,
+    "rating": 8.5,
+    "director": "Luc Besson",
+    "actors": [
+      "Jean Reno",
+      "Gary Oldman"
+    ]
+  },
+  {
+    "name": "Зелёная миля",
+    "pos": 30,
+    "rating": 8.5,
+    "director": "Frank Darabont",
+    "actors": [
+      "Tom Hanks",
+      "Michael Clarke Duncan"
+    ]
+  },
+  {
+    "name": "Интерстеллар",
+    "pos": 31,
+    "rating": 8.5,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Matthew McConaughey",
+      "Anne Hathaway"
+    ]
+  },
+  {
+    "name": "Американская история Икс",
+    "pos": 32,
+    "rating": 8.5,
+    "director": "Tony Kaye",
+    "actors": [
+      "Edward Norton",
+      "Edward Furlong"
+    ]
+  },
+  {
+    "name": "Психо",
+    "pos": 33,
+    "rating": 8.5,
+    "director": "Alfred Hitchcock",
+    "actors": [
+      "Anthony Perkins",
+      "Janet Leigh"
+    ]
+  },
+  {
+    "name": "Огни большого города",
+    "pos": 34,
+    "rating": 8.5,
+    "director": "Charles Chaplin",
+    "actors": [
+      "Charles Chaplin",
+      "Virginia Cherrill"
+    ]
+  },
+  {
+    "name": "Однажды на Диком Западе",
+    "pos": 35,
+    "rating": 8.5,
+    "director": "Sergio Leone",
+    "actors": [
+      "Henry Fonda",
+      "Charles Bronson"
+    ]
+  },
+  {
+    "name": "Касабланка",
+    "pos": 36,
+    "rating": 8.5,
+    "director": "Michael Curtiz",
+    "actors": [
+      "Humphrey Bogart",
+      "Ingrid Bergman"
+    ]
+  },
+  {
+    "name": "Modern Times",
+    "pos": 37,
+    "rating": 8.5,
+    "director": "Charles Chaplin",
+    "actors": [
+      "Charles Chaplin",
+      "Paulette Goddard"
+    ]
+  },
+  {
+    "name": "1+1",
+    "pos": 38,
+    "rating": 8.5,
+    "director": "Olivier Nakache",
+    "actors": [
+      "François Cluzet",
+      "Omar Sy"
+    ]
+  },
+  {
+    "name": "Пианист",
+    "pos": 39,
+    "rating": 8.5,
+    "director": "Roman Polanski",
+    "actors": [
+      "Adrien Brody",
+      "Thomas Kretschmann"
+    ]
+  },
+  {
+    "name": "Отступники",
+    "pos": 40,
+    "rating": 8.5,
+    "director": "Martin Scorsese",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Matt Damon"
+    ]
+  },
+  {
+    "name": "Терминатор 2: Судный день",
+    "pos": 41,
+    "rating": 8.5,
+    "director": "James Cameron",
+    "actors": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton"
+    ]
+  },
+  {
+    "name": "Назад в будущее",
+    "pos": 42,
+    "rating": 8.5,
+    "director": "Robert Zemeckis",
+    "actors": [
+      "Michael J. Fox",
+      "Christopher Lloyd"
+    ]
+  },
+  {
+    "name": "Окно во двор",
+    "pos": 43,
+    "rating": 8.5,
+    "director": "Alfred Hitchcock",
+    "actors": [
+      "James Stewart",
+      "Grace Kelly"
+    ]
+  },
+  {
+    "name": "Одержимость",
+    "pos": 44,
+    "rating": 8.5,
+    "director": "Damien Chazelle",
+    "actors": [
+      "Miles Teller",
+      "J.K. Simmons"
+    ]
+  },
+  {
+    "name": "Индиана Джонс: В поисках утраченного ковчега",
+    "pos": 45,
+    "rating": 8.5,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Harrison Ford",
+      "Karen Allen"
+    ]
+  },
+  {
+    "name": "Мстители: Война бесконечности",
+    "pos": 46,
+    "rating": 8.5,
+    "director": "Anthony Russo",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth"
+    ]
+  },
+  {
+    "name": "Гладиатор",
+    "pos": 47,
+    "rating": 8.5,
+    "director": "Ridley Scott",
+    "actors": [
+      "Russell Crowe",
+      "Joaquin Phoenix"
+    ]
+  },
+  {
+    "name": "The Lion King",
+    "pos": 48,
+    "rating": 8.5,
+    "director": "Roger Allers",
+    "actors": [
+      "Matthew Broderick",
+      "Jeremy Irons"
+    ]
+  },
+  {
+    "name": "Престиж",
+    "pos": 49,
+    "rating": 8.5,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Hugh Jackman"
+    ]
+  },
+  {
+    "name": "Помни",
+    "pos": 50,
+    "rating": 8.4,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Guy Pearce",
+      "Carrie-Anne Moss"
+    ]
+  },
+  {
+    "name": "Апокалипсис сегодня",
+    "pos": 51,
+    "rating": 8.4,
+    "director": "Francis Ford Coppola",
+    "actors": [
+      "Martin Sheen",
+      "Marlon Brando"
+    ]
+  },
+  {
+    "name": "Чужой",
+    "pos": 52,
+    "rating": 8.4,
+    "director": "Ridley Scott",
+    "actors": [
+      "Sigourney Weaver",
+      "Tom Skerritt"
+    ]
+  },
+  {
+    "name": "Великий диктатор",
+    "pos": 53,
+    "rating": 8.4,
+    "director": "Charles Chaplin",
+    "actors": [
+      "Charles Chaplin",
+      "Paulette Goddard"
+    ]
+  },
+  {
+    "name": "Nuovo Cinema Paradiso",
+    "pos": 54,
+    "rating": 8.4,
+    "director": "Giuseppe Tornatore",
+    "actors": [
+      "Philippe Noiret",
+      "Enzo Cannavale"
+    ]
+  },
+  {
+    "name": "Могила светлячков",
+    "pos": 55,
+    "rating": 8.4,
+    "director": "Isao Takahata",
+    "actors": [
+      "Tsutomu Tatsumi",
+      "Ayano Shiraishi"
+    ]
+  },
+  {
+    "name": "Sunset Blvd.",
+    "pos": 56,
+    "rating": 8.4,
+    "director": "Billy Wilder",
+    "actors": [
+      "William Holden",
+      "Gloria Swanson"
+    ]
+  },
+  {
+    "name": "Доктор Стрейнджлав, или Как я научился не волноваться и полюбил атомную бомбу",
+    "pos": 57,
+    "rating": 8.4,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "Peter Sellers",
+      "George C. Scott"
+    ]
+  },
+  {
+    "name": "Жизнь других",
+    "pos": 58,
+    "rating": 8.4,
+    "director": "Florian Henckel von Donnersmarck",
+    "actors": [
+      "Ulrich Mühe",
+      "Martina Gedeck"
+    ]
+  },
+  {
+    "name": "Тропы славы",
+    "pos": 59,
+    "rating": 8.4,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "Kirk Douglas",
+      "Ralph Meeker"
+    ]
+  },
+  {
+    "name": "Сияние",
+    "pos": 60,
+    "rating": 8.4,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "Jack Nicholson",
+      "Shelley Duvall"
+    ]
+  },
+  {
+    "name": "Джанго освобожденный",
+    "pos": 61,
+    "rating": 8.4,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "Jamie Foxx",
+      "Christoph Waltz"
+    ]
+  },
+  {
+    "name": "ВАЛЛ-И",
+    "pos": 62,
+    "rating": 8.4,
+    "director": "Andrew Stanton",
+    "actors": [
+      "Ben Burtt",
+      "Elissa Knight"
+    ]
+  },
+  {
+    "name": "Принцесса Мононокэ",
+    "pos": 63,
+    "rating": 8.4,
+    "director": "Hayao Miyazaki",
+    "actors": [
+      "Yôji Matsuda",
+      "Yuriko Ishida"
+    ]
+  },
+  {
+    "name": "Тайна Коко",
+    "pos": 64,
+    "rating": 8.4,
+    "director": "Lee Unkrich",
+    "actors": [
+      "Anthony Gonzalez",
+      "Gael García Bernal"
+    ]
+  },
+  {
+    "name": "Свидетель обвинения",
+    "pos": 65,
+    "rating": 8.4,
+    "director": "Billy Wilder",
+    "actors": [
+      "Tyrone Power",
+      "Marlene Dietrich"
+    ]
+  },
+  {
+    "name": "Красота по-американски",
+    "pos": 66,
+    "rating": 8.4,
+    "director": "Sam Mendes",
+    "actors": [
+      "Kevin Spacey",
+      "Annette Bening"
+    ]
+  },
+  {
+    "name": "Тёмный рыцарь: Возрождение легенды",
+    "pos": 67,
+    "rating": 8.4,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Tom Hardy"
+    ]
+  },
+  {
+    "name": "Олдбой",
+    "pos": 68,
+    "rating": 8.4,
+    "director": "Chan-wook Park",
+    "actors": [
+      "Min-sik Choi",
+      "Ji-tae Yu"
+    ]
+  },
+  {
+    "name": "Чужие",
+    "pos": 69,
+    "rating": 8.3,
+    "director": "James Cameron",
+    "actors": [
+      "Sigourney Weaver",
+      "Michael Biehn"
+    ]
+  },
+  {
+    "name": "Однажды в Америке",
+    "pos": 70,
+    "rating": 8.3,
+    "director": "Sergio Leone",
+    "actors": [
+      "Robert De Niro",
+      "James Woods"
+    ]
+  },
+  {
+    "name": "Подводная лодка",
+    "pos": 71,
+    "rating": 8.3,
+    "director": "Wolfgang Petersen",
+    "actors": [
+      "Jürgen Prochnow",
+      "Herbert Grönemeyer"
+    ]
+  },
+  {
+    "name": "Гражданин Кейн",
+    "pos": 72,
+    "rating": 8.3,
+    "director": "Orson Welles",
+    "actors": [
+      "Orson Welles",
+      "Joseph Cotten"
+    ]
+  },
+  {
+    "name": "Храброе сердце",
+    "pos": 73,
+    "rating": 8.3,
+    "director": "Mel Gibson",
+    "actors": [
+      "Mel Gibson",
+      "Sophie Marceau"
+    ]
+  },
+  {
+    "name": "Головокружение",
+    "pos": 74,
+    "rating": 8.3,
+    "director": "Alfred Hitchcock",
+    "actors": [
+      "James Stewart",
+      "Kim Novak"
+    ]
+  },
+  {
+    "name": "North by Northwest",
+    "pos": 75,
+    "rating": 8.3,
+    "director": "Alfred Hitchcock",
+    "actors": [
+      "Cary Grant",
+      "Eva Marie Saint"
+    ]
+  },
+  {
+    "name": "Бешеные псы",
+    "pos": 76,
+    "rating": 8.3,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "Harvey Keitel",
+      "Tim Roth"
+    ]
+  },
+  {
+    "name": "Твое имя",
+    "pos": 77,
+    "rating": 8.3,
+    "director": "Makoto Shinkai",
+    "actors": [
+      "Ryûnosuke Kamiki",
+      "Mone Kamishiraishi"
+    ]
+  },
+  {
+    "name": "Звёздные войны. Эпизод 6: Возвращение джедая",
+    "pos": 78,
+    "rating": 8.3,
+    "director": "Richard Marquand",
+    "actors": [
+      "Mark Hamill",
+      "Harrison Ford"
+    ]
+  },
+  {
+    "name": "М",
+    "pos": 79,
+    "rating": 8.3,
+    "director": "Fritz Lang",
+    "actors": [
+      "Peter Lorre",
+      "Ellen Widmann"
+    ]
+  },
+  {
+    "name": "Дангал",
+    "pos": 80,
+    "rating": 8.3,
+    "director": "Nitesh Tiwari",
+    "actors": [
+      "Aamir Khan",
+      "Sakshi Tanwar"
+    ]
+  },
+  {
+    "name": "Реквием по мечте",
+    "pos": 81,
+    "rating": 8.3,
+    "director": "Darren Aronofsky",
+    "actors": [
+      "Ellen Burstyn",
+      "Jared Leto"
+    ]
+  },
+  {
+    "name": "Амадей",
+    "pos": 82,
+    "rating": 8.3,
+    "director": "Milos Forman",
+    "actors": [
+      "F. Murray Abraham",
+      "Tom Hulce"
+    ]
+  },
+  {
+    "name": "Звёздочки на земле",
+    "pos": 83,
+    "rating": 8.3,
+    "director": "Aamir Khan",
+    "actors": [
+      "Darsheel Safary",
+      "Aamir Khan"
+    ]
+  },
+  {
+    "name": "Лоуренс Аравийский",
+    "pos": 84,
+    "rating": 8.3,
+    "director": "David Lean",
+    "actors": [
+      "Peter O'Toole",
+      "Alec Guinness"
+    ]
+  },
+  {
+    "name": "Заводной апельсин",
+    "pos": 85,
+    "rating": 8.3,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "Malcolm McDowell",
+      "Patrick Magee"
+    ]
+  },
+  {
+    "name": "Вечное сияние чистого разума",
+    "pos": 86,
+    "rating": 8.3,
+    "director": "Michel Gondry",
+    "actors": [
+      "Jim Carrey",
+      "Kate Winslet"
+    ]
+  },
+  {
+    "name": "Амели",
+    "pos": 87,
+    "rating": 8.3,
+    "director": "Jean-Pierre Jeunet",
+    "actors": [
+      "Audrey Tautou",
+      "Mathieu Kassovitz"
+    ]
+  },
+  {
+    "name": "Двойная страховка",
+    "pos": 88,
+    "rating": 8.3,
+    "director": "Billy Wilder",
+    "actors": [
+      "Fred MacMurray",
+      "Barbara Stanwyck"
+    ]
+  },
+  {
+    "name": "2001 год: Космическая одиссея",
+    "pos": 89,
+    "rating": 8.3,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "Keir Dullea",
+      "Gary Lockwood"
+    ]
+  },
+  {
+    "name": "Три идиота",
+    "pos": 90,
+    "rating": 8.3,
+    "director": "Rajkumar Hirani",
+    "actors": [
+      "Aamir Khan",
+      "Madhavan"
+    ]
+  },
+  {
+    "name": "Таксист",
+    "pos": 91,
+    "rating": 8.3,
+    "director": "Martin Scorsese",
+    "actors": [
+      "Robert De Niro",
+      "Jodie Foster"
+    ]
+  },
+  {
+    "name": "История игрушек",
+    "pos": 92,
+    "rating": 8.3,
+    "director": "John Lasseter",
+    "actors": [
+      "Tom Hanks",
+      "Tim Allen"
+    ]
+  },
+  {
+    "name": "Поющие под дождём",
+    "pos": 93,
+    "rating": 8.3,
+    "director": "Stanley Donen",
+    "actors": [
+      "Gene Kelly",
+      "Donald O'Connor"
+    ]
+  },
+  {
+    "name": "Цельнометаллическая оболочка",
+    "pos": 94,
+    "rating": 8.3,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "Matthew Modine",
+      "R. Lee Ermey"
+    ]
+  },
+  {
+    "name": "Бесславные ублюдки",
+    "pos": 95,
+    "rating": 8.3,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "Brad Pitt",
+      "Diane Kruger"
+    ]
+  },
+  {
+    "name": "Убить пересмешника",
+    "pos": 96,
+    "rating": 8.3,
+    "director": "Robert Mulligan",
+    "actors": [
+      "Gregory Peck",
+      "John Megna"
+    ]
+  },
+  {
+    "name": "Похитители велосипедов",
+    "pos": 97,
+    "rating": 8.3,
+    "director": "Vittorio De Sica",
+    "actors": [
+      "Lamberto Maggiorani",
+      "Enzo Staiola"
+    ]
+  },
+  {
+    "name": "Малыш",
+    "pos": 98,
+    "rating": 8.3,
+    "director": "Charles Chaplin",
+    "actors": [
+      "Charles Chaplin",
+      "Edna Purviance"
+    ]
+  },
+  {
+    "name": "Афера",
+    "pos": 99,
+    "rating": 8.3,
+    "director": "George Roy Hill",
+    "actors": [
+      "Paul Newman",
+      "Robert Redford"
+    ]
+  },
+  {
+    "name": "История игрушек: Большой побег",
+    "pos": 100,
+    "rating": 8.3,
+    "director": "Lee Unkrich",
+    "actors": [
+      "Tom Hanks",
+      "Tim Allen"
+    ]
+  },
+  {
+    "name": "Умница Уилл Хантинг",
+    "pos": 101,
+    "rating": 8.3,
+    "director": "Gus Van Sant",
+    "actors": [
+      "Robin Williams",
+      "Matt Damon"
+    ]
+  },
+  {
+    "name": "Охота",
+    "pos": 102,
+    "rating": 8.3,
+    "director": "Thomas Vinterberg",
+    "actors": [
+      "Mads Mikkelsen",
+      "Thomas Bo Larsen"
+    ]
+  },
+  {
+    "name": "Большой куш",
+    "pos": 103,
+    "rating": 8.3,
+    "director": "Guy Ritchie",
+    "actors": [
+      "Jason Statham",
+      "Brad Pitt"
+    ]
+  },
+  {
+    "name": "Монти Пайтон и священный Грааль",
+    "pos": 104,
+    "rating": 8.2,
+    "director": "Terry Gilliam",
+    "actors": [
+      "Graham Chapman",
+      "John Cleese"
+    ]
+  },
+  {
+    "name": "Лицо со шрамом",
+    "pos": 105,
+    "rating": 8.2,
+    "director": "Brian De Palma",
+    "actors": [
+      "Al Pacino",
+      "Michelle Pfeiffer"
+    ]
+  },
+  {
+    "name": "Per qualche dollaro in più",
+    "pos": 106,
+    "rating": 8.2,
+    "director": "Sergio Leone",
+    "actors": [
+      "Clint Eastwood",
+      "Lee Van Cleef"
+    ]
+  },
+  {
+    "name": "Секреты Лос-Анджелеса",
+    "pos": 107,
+    "rating": 8.2,
+    "director": "Curtis Hanson",
+    "actors": [
+      "Kevin Spacey",
+      "Russell Crowe"
+    ]
+  },
+  {
+    "name": "The Apartment",
+    "pos": 108,
+    "rating": 8.2,
+    "director": "Billy Wilder",
+    "actors": [
+      "Jack Lemmon",
+      "Shirley MacLaine"
+    ]
+  },
+  {
+    "name": "Metropolis",
+    "pos": 109,
+    "rating": 8.2,
+    "director": "Fritz Lang",
+    "actors": [
+      "Brigitte Helm",
+      "Alfred Abel"
+    ]
+  },
+  {
+    "name": "Развод Надера и Симин",
+    "pos": 110,
+    "rating": 8.2,
+    "director": "Asghar Farhadi",
+    "actors": [
+      "Payman Maadi",
+      "Leila Hatami"
+    ]
+  },
+  {
+    "name": "Индиана Джонс и последний крестовый поход",
+    "pos": 111,
+    "rating": 8.2,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Harrison Ford",
+      "Sean Connery"
+    ]
+  },
+  {
+    "name": "Расёмон",
+    "pos": 112,
+    "rating": 8.2,
+    "director": "Akira Kurosawa",
+    "actors": [
+      "Toshirô Mifune",
+      "Machiko Kyô"
+    ]
+  },
+  {
+    "name": "Вверх",
+    "pos": 113,
+    "rating": 8.2,
+    "director": "Pete Docter",
+    "actors": [
+      "Edward Asner",
+      "Jordan Nagai"
+    ]
+  },
+  {
+    "name": "Всё о Еве",
+    "pos": 114,
+    "rating": 8.2,
+    "director": "Joseph L. Mankiewicz",
+    "actors": [
+      "Bette Davis",
+      "Anne Baxter"
+    ]
+  },
+  {
+    "name": "Yôjinbô",
+    "pos": 115,
+    "rating": 8.2,
+    "director": "Akira Kurosawa",
+    "actors": [
+      "Toshirô Mifune",
+      "Eijirô Tôno"
+    ]
+  },
+  {
+    "name": "Бэтмен: Начало",
+    "pos": 116,
+    "rating": 8.2,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Michael Caine"
+    ]
+  },
+  {
+    "name": "В джазе только девушки",
+    "pos": 117,
+    "rating": 8.2,
+    "director": "Billy Wilder",
+    "actors": [
+      "Marilyn Monroe",
+      "Tony Curtis"
+    ]
+  },
+  {
+    "name": "Непрощённый",
+    "pos": 118,
+    "rating": 8.2,
+    "director": "Clint Eastwood",
+    "actors": [
+      "Clint Eastwood",
+      "Gene Hackman"
+    ]
+  },
+  {
+    "name": "Бункер",
+    "pos": 119,
+    "rating": 8.2,
+    "director": "Oliver Hirschbiegel",
+    "actors": [
+      "Bruno Ganz",
+      "Alexandra Maria Lara"
+    ]
+  },
+  {
+    "name": "Сокровища Сьерра-Мадре",
+    "pos": 120,
+    "rating": 8.2,
+    "director": "John Huston",
+    "actors": [
+      "Humphrey Bogart",
+      "Walter Huston"
+    ]
+  },
+  {
+    "name": "Крепкий орешек",
+    "pos": 121,
+    "rating": 8.2,
+    "director": "John McTiernan",
+    "actors": [
+      "Bruce Willis",
+      "Alan Rickman"
+    ]
+  },
+  {
+    "name": "Схватка",
+    "pos": 122,
+    "rating": 8.2,
+    "director": "Michael Mann",
+    "actors": [
+      "Al Pacino",
+      "Robert De Niro"
+    ]
+  },
+  {
+    "name": "Бешеный бык",
+    "pos": 123,
+    "rating": 8.2,
+    "director": "Martin Scorsese",
+    "actors": [
+      "Robert De Niro",
+      "Cathy Moriarty"
+    ]
+  },
+  {
+    "name": "Ikiru",
+    "pos": 124,
+    "rating": 8.2,
+    "director": "Akira Kurosawa",
+    "actors": [
+      "Takashi Shimura",
+      "Nobuo Kaneko"
+    ]
+  },
+  {
+    "name": "Мой отец и мой сын",
+    "pos": 125,
+    "rating": 8.2,
+    "director": "Çagan Irmak",
+    "actors": [
+      "Çetin Tekindor",
+      "Fikret Kuskan"
+    ]
+  },
+  {
+    "name": "The Great Escape",
+    "pos": 126,
+    "rating": 8.2,
+    "director": "John Sturges",
+    "actors": [
+      "Steve McQueen",
+      "James Garner"
+    ]
+  },
+  {
+    "name": "Пожары",
+    "pos": 127,
+    "rating": 8.2,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "Lubna Azabal",
+      "Mélissa Désormeaux-Poulin"
+    ]
+  },
+  {
+    "name": "Дети небес",
+    "pos": 128,
+    "rating": 8.2,
+    "director": "Majid Majidi",
+    "actors": [
+      "Mohammad Amir Naji",
+      "Amir Farrokh Hashemian"
+    ]
+  },
+  {
+    "name": "Лабиринт Фавна",
+    "pos": 129,
+    "rating": 8.2,
+    "director": "Guillermo del Toro",
+    "actors": [
+      "Ivana Baquero",
+      "Ariadna Gil"
+    ]
+  },
+  {
+    "name": "The Third Man",
+    "pos": 130,
+    "rating": 8.2,
+    "director": "Carol Reed",
+    "actors": [
+      "Orson Welles",
+      "Joseph Cotten"
+    ]
+  },
+  {
+    "name": "Chinatown",
+    "pos": 131,
+    "rating": 8.2,
+    "director": "Roman Polanski",
+    "actors": [
+      "Jack Nicholson",
+      "Faye Dunaway"
+    ]
+  },
+  {
+    "name": "Мой сосед Тоторо",
+    "pos": 132,
+    "rating": 8.2,
+    "director": "Hayao Miyazaki",
+    "actors": [
+      "Hitoshi Takagi",
+      "Noriko Hidaka"
+    ]
+  },
+  {
+    "name": "Ran",
+    "pos": 133,
+    "rating": 8.2,
+    "director": "Akira Kurosawa",
+    "actors": [
+      "Tatsuya Nakadai",
+      "Akira Terao"
+    ]
+  },
+  {
+    "name": "Judgment at Nuremberg",
+    "pos": 134,
+    "rating": 8.2,
+    "director": "Stanley Kramer",
+    "actors": [
+      "Spencer Tracy",
+      "Burt Lancaster"
+    ]
+  },
+  {
+    "name": "Ходячий замок",
+    "pos": 135,
+    "rating": 8.2,
+    "director": "Hayao Miyazaki",
+    "actors": [
+      "Chieko Baishô",
+      "Takuya Kimura"
+    ]
+  },
+  {
+    "name": "Тайна в его глазах",
+    "pos": 136,
+    "rating": 8.2,
+    "director": "Juan José Campanella",
+    "actors": [
+      "Ricardo Darín",
+      "Soledad Villamil"
+    ]
+  },
+  {
+    "name": "The Gold Rush",
+    "pos": 137,
+    "rating": 8.2,
+    "director": "Charles Chaplin",
+    "actors": [
+      "Charles Chaplin",
+      "Mack Swain"
+    ]
+  },
+  {
+    "name": "Три билборда на границе Эббинга, Миссури",
+    "pos": 138,
+    "rating": 8.2,
+    "director": "Martin McDonagh",
+    "actors": [
+      "Frances McDormand",
+      "Woody Harrelson"
+    ]
+  },
+  {
+    "name": "The Bridge on the River Kwai",
+    "pos": 139,
+    "rating": 8.2,
+    "director": "David Lean",
+    "actors": [
+      "William Holden",
+      "Alec Guinness"
+    ]
+  },
+  {
+    "name": "On the Waterfront",
+    "pos": 140,
+    "rating": 8.2,
+    "director": "Elia Kazan",
+    "actors": [
+      "Marlon Brando",
+      "Karl Malden"
+    ]
+  },
+  {
+    "name": "Игры разума",
+    "pos": 141,
+    "rating": 8.2,
+    "director": "Ron Howard",
+    "actors": [
+      "Russell Crowe",
+      "Ed Harris"
+    ]
+  },
+  {
+    "name": "Карты, деньги, два ствола",
+    "pos": 142,
+    "rating": 8.2,
+    "director": "Guy Ritchie",
+    "actors": [
+      "Jason Flemyng",
+      "Dexter Fletcher"
+    ]
+  },
+  {
+    "name": "Казино",
+    "pos": 143,
+    "rating": 8.2,
+    "director": "Martin Scorsese",
+    "actors": [
+      "Robert De Niro",
+      "Sharon Stone"
+    ]
+  },
+  {
+    "name": "Седьмая печать",
+    "pos": 144,
+    "rating": 8.2,
+    "director": "Ingmar Bergman",
+    "actors": [
+      "Max von Sydow",
+      "Gunnar Björnstrand"
+    ]
+  },
+  {
+    "name": "Головоломка",
+    "pos": 145,
+    "rating": 8.2,
+    "director": "Pete Docter",
+    "actors": [
+      "Amy Poehler",
+      "Bill Hader"
+    ]
+  },
+  {
+    "name": "Комната",
+    "pos": 146,
+    "rating": 8.1,
+    "director": "Lenny Abrahamson",
+    "actors": [
+      "Brie Larson",
+      "Jacob Tremblay"
+    ]
+  },
+  {
+    "name": "Mr. Smith Goes to Washington",
+    "pos": 147,
+    "rating": 8.1,
+    "director": "Frank Capra",
+    "actors": [
+      "James Stewart",
+      "Jean Arthur"
+    ]
+  },
+  {
+    "name": "The Elephant Man",
+    "pos": 148,
+    "rating": 8.1,
+    "director": "David Lynch",
+    "actors": [
+      "Anthony Hopkins",
+      "John Hurt"
+    ]
+  },
+  {
+    "name": "Волк с Уолл-стрит",
+    "pos": 149,
+    "rating": 8.1,
+    "director": "Martin Scorsese",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Jonah Hill"
+    ]
+  },
+  {
+    "name": "V значит Вендетта",
+    "pos": 150,
+    "rating": 8.1,
+    "director": "James McTeigue",
+    "actors": [
+      "Hugo Weaving",
+      "Natalie Portman"
+    ]
+  },
+  {
+    "name": "Воин",
+    "pos": 151,
+    "rating": 8.1,
+    "director": "Gavin O'Connor",
+    "actors": [
+      "Tom Hardy",
+      "Nick Nolte"
+    ]
+  },
+  {
+    "name": "Бегущий по лезвию",
+    "pos": 152,
+    "rating": 8.1,
+    "director": "Ridley Scott",
+    "actors": [
+      "Harrison Ford",
+      "Rutger Hauer"
+    ]
+  },
+  {
+    "name": "The General",
+    "pos": 153,
+    "rating": 8.1,
+    "director": "Clyde Bruckman",
+    "actors": [
+      "Buster Keaton",
+      "Marion Mack"
+    ]
+  },
+  {
+    "name": "Земляничная поляна",
+    "pos": 154,
+    "rating": 8.1,
+    "director": "Ingmar Bergman",
+    "actors": [
+      "Victor Sjöström",
+      "Bibi Andersson"
+    ]
+  },
+  {
+    "name": "Dial M for Murder",
+    "pos": 155,
+    "rating": 8.1,
+    "director": "Alfred Hitchcock",
+    "actors": [
+      "Ray Milland",
+      "Grace Kelly"
+    ]
+  },
+  {
+    "name": "На игле",
+    "pos": 156,
+    "rating": 8.1,
+    "director": "Danny Boyle",
+    "actors": [
+      "Ewan McGregor",
+      "Ewen Bremner"
+    ]
+  },
+  {
+    "name": "Старикам тут не место",
+    "pos": 157,
+    "rating": 8.1,
+    "director": "Ethan Coen",
+    "actors": [
+      "Tommy Lee Jones",
+      "Javier Bardem"
+    ]
+  },
+  {
+    "name": "Нефть",
+    "pos": 158,
+    "rating": 8.1,
+    "director": "Paul Thomas Anderson",
+    "actors": [
+      "Daniel Day-Lewis",
+      "Paul Dano"
+    ]
+  },
+  {
+    "name": "Унесённые ветром",
+    "pos": 159,
+    "rating": 8.1,
+    "director": "Victor Fleming",
+    "actors": [
+      "Clark Gable",
+      "Vivien Leigh"
+    ]
+  },
+  {
+    "name": "Шестое чувство",
+    "pos": 160,
+    "rating": 8.1,
+    "director": "M. Night Shyamalan",
+    "actors": [
+      "Bruce Willis",
+      "Haley Joel Osment"
+    ]
+  },
+  {
+    "name": "Фарго",
+    "pos": 161,
+    "rating": 8.1,
+    "director": "Joel Coen",
+    "actors": [
+      "William H. Macy",
+      "Frances McDormand"
+    ]
+  },
+  {
+    "name": "Гран Торино",
+    "pos": 162,
+    "rating": 8.1,
+    "director": "Clint Eastwood",
+    "actors": [
+      "Clint Eastwood",
+      "Bee Vang"
+    ]
+  },
+  {
+    "name": "Нечто",
+    "pos": 163,
+    "rating": 8.1,
+    "director": "John Carpenter",
+    "actors": [
+      "Kurt Russell",
+      "Wilford Brimley"
+    ]
+  },
+  {
+    "name": "Охотник на оленей",
+    "pos": 164,
+    "rating": 8.1,
+    "director": "Michael Cimino",
+    "actors": [
+      "Robert De Niro",
+      "Christopher Walken"
+    ]
+  },
+  {
+    "name": "В поисках Немо",
+    "pos": 165,
+    "rating": 8.1,
+    "director": "Andrew Stanton",
+    "actors": [
+      "Albert Brooks",
+      "Ellen DeGeneres"
+    ]
+  },
+  {
+    "name": "Sherlock Jr.",
+    "pos": 166,
+    "rating": 8.1,
+    "director": "Buster Keaton",
+    "actors": [
+      "Buster Keaton",
+      "Kathryn McGuire"
+    ]
+  },
+  {
+    "name": "Idi i smotri",
+    "pos": 167,
+    "rating": 8.1,
+    "director": "Elem Klimov",
+    "actors": [
+      "Aleksey Kravchenko",
+      "Olga Mironova"
+    ]
+  },
+  {
+    "name": "Большой Лебовски",
+    "pos": 168,
+    "rating": 8.1,
+    "director": "Joel Coen",
+    "actors": [
+      "Jeff Bridges",
+      "John Goodman"
+    ]
+  },
+  {
+    "name": "Убить Билла",
+    "pos": 169,
+    "rating": 8.1,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "Uma Thurman",
+      "David Carradine"
+    ]
+  },
+  {
+    "name": "Остров проклятых",
+    "pos": 170,
+    "rating": 8.1,
+    "director": "Martin Scorsese",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Emily Mortimer"
+    ]
+  },
+  {
+    "name": "Хладнокровный Люк",
+    "pos": 171,
+    "rating": 8.1,
+    "director": "Stuart Rosenberg",
+    "actors": [
+      "Paul Newman",
+      "George Kennedy"
+    ]
+  },
+  {
+    "name": "Rebecca",
+    "pos": 172,
+    "rating": 8.1,
+    "director": "Alfred Hitchcock",
+    "actors": [
+      "Laurence Olivier",
+      "Joan Fontaine"
+    ]
+  },
+  {
+    "name": "Tôkyô monogatari",
+    "pos": 173,
+    "rating": 8.1,
+    "director": "Yasujirô Ozu",
+    "actors": [
+      "Chishû Ryû",
+      "Chieko Higashiyama"
+    ]
+  },
+  {
+    "name": "Sunrise: A Song of Two Humans",
+    "pos": 174,
+    "rating": 8.1,
+    "director": "F.W. Murnau",
+    "actors": [
+      "George O'Brien",
+      "Janet Gaynor"
+    ]
+  },
+  {
+    "name": "По соображениям совести",
+    "pos": 175,
+    "rating": 8.1,
+    "director": "Mel Gibson",
+    "actors": [
+      "Andrew Garfield",
+      "Sam Worthington"
+    ]
+  },
+  {
+    "name": "Мэри и Макс",
+    "pos": 176,
+    "rating": 8.1,
+    "director": "Adam Elliot",
+    "actors": [
+      "Toni Collette",
+      "Philip Seymour Hoffman"
+    ]
+  },
+  {
+    "name": "Как приручить дракона",
+    "pos": 177,
+    "rating": 8.1,
+    "director": "Dean DeBlois",
+    "actors": [
+      "Jay Baruchel",
+      "Gerard Butler"
+    ]
+  },
+  {
+    "name": "Исчезнувшая",
+    "pos": 178,
+    "rating": 8.1,
+    "director": "David Fincher",
+    "actors": [
+      "Ben Affleck",
+      "Rosamund Pike"
+    ]
+  },
+  {
+    "name": "Дикие истории",
+    "pos": 179,
+    "rating": 8.1,
+    "director": "Damián Szifron",
+    "actors": [
+      "Darío Grandinetti",
+      "María Marull"
+    ]
+  },
+  {
+    "name": "В диких условиях",
+    "pos": 180,
+    "rating": 8.1,
+    "director": "Sean Penn",
+    "actors": [
+      "Emile Hirsch",
+      "Vince Vaughn"
+    ]
+  },
+  {
+    "name": "Парк юрского периода",
+    "pos": 181,
+    "rating": 8.1,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Sam Neill",
+      "Laura Dern"
+    ]
+  },
+  {
+    "name": "Life of Brian",
+    "pos": 182,
+    "rating": 8.1,
+    "director": "Terry Jones",
+    "actors": [
+      "Graham Chapman",
+      "John Cleese"
+    ]
+  },
+  {
+    "name": "Бандит",
+    "pos": 183,
+    "rating": 8.1,
+    "director": "Yavuz Turgul",
+    "actors": [
+      "Sener Sen",
+      "Ugur Yücel"
+    ]
+  },
+  {
+    "name": "It Happened One Night",
+    "pos": 184,
+    "rating": 8.1,
+    "director": "Frank Capra",
+    "actors": [
+      "Clark Gable",
+      "Claudette Colbert"
+    ]
+  },
+  {
+    "name": "Во имя отца",
+    "pos": 185,
+    "rating": 8.1,
+    "director": "Jim Sheridan",
+    "actors": [
+      "Daniel Day-Lewis",
+      "Pete Postlethwaite"
+    ]
+  },
+  {
+    "name": "Platoon",
+    "pos": 186,
+    "rating": 8.1,
+    "director": "Oliver Stone",
+    "actors": [
+      "Charlie Sheen",
+      "Tom Berenger"
+    ]
+  },
+  {
+    "name": "Останься со мной",
+    "pos": 187,
+    "rating": 8.1,
+    "director": "Rob Reiner",
+    "actors": [
+      "Wil Wheaton",
+      "River Phoenix"
+    ]
+  },
+  {
+    "name": "Отель Гранд Будапешт",
+    "pos": 188,
+    "rating": 8.1,
+    "director": "Wes Anderson",
+    "actors": [
+      "Ralph Fiennes",
+      "F. Murray Abraham"
+    ]
+  },
+  {
+    "name": "Network",
+    "pos": 189,
+    "rating": 8.1,
+    "director": "Sidney Lumet",
+    "actors": [
+      "Faye Dunaway",
+      "William Holden"
+    ]
+  },
+  {
+    "name": "Шоу Трумана",
+    "pos": 190,
+    "rating": 8.1,
+    "director": "Peter Weir",
+    "actors": [
+      "Jim Carrey",
+      "Ed Harris"
+    ]
+  },
+  {
+    "name": "Сталкер",
+    "pos": 191,
+    "rating": 8.1,
+    "director": "Andrei Tarkovsky",
+    "actors": [
+      "Alisa Freyndlikh",
+      "Aleksandr Kaydanovskiy"
+    ]
+  },
+  {
+    "name": "Andrei Rublev",
+    "pos": 192,
+    "rating": 8.1,
+    "director": "Andrei Tarkovsky",
+    "actors": [
+      "Anatoliy Solonitsyn",
+      "Ivan Lapikov"
+    ]
+  },
+  {
+    "name": "Отель Руанда",
+    "pos": 193,
+    "rating": 8.1,
+    "director": "Terry George",
+    "actors": [
+      "Don Cheadle",
+      "Sophie Okonedo"
+    ]
+  },
+  {
+    "name": "Персона",
+    "pos": 194,
+    "rating": 8.1,
+    "director": "Ingmar Bergman",
+    "actors": [
+      "Bibi Andersson",
+      "Liv Ullmann"
+    ]
+  },
+  {
+    "name": "Ben-Hur",
+    "pos": 195,
+    "rating": 8.1,
+    "director": "William Wyler",
+    "actors": [
+      "Charlton Heston",
+      "Jack Hawkins"
+    ]
+  },
+  {
+    "name": "Цвет шафрана",
+    "pos": 196,
+    "rating": 8.1,
+    "director": "Rakeysh Omprakash Mehra",
+    "actors": [
+      "Aamir Khan",
+      "Soha Ali Khan"
+    ]
+  },
+  {
+    "name": "Воспоминания об убийстве",
+    "pos": 197,
+    "rating": 8.1,
+    "director": "Joon-ho Bong",
+    "actors": [
+      "Kang-ho Song",
+      "Sang-kyung Kim"
+    ]
+  },
+  {
+    "name": "Le salaire de la peur",
+    "pos": 198,
+    "rating": 8.1,
+    "director": "Henri-Georges Clouzot",
+    "actors": [
+      "Yves Montand",
+      "Charles Vanel"
+    ]
+  },
+  {
+    "name": "12 лет рабства",
+    "pos": 199,
+    "rating": 8.1,
+    "director": "Steve McQueen",
+    "actors": [
+      "Chiwetel Ejiofor",
+      "Michael Kenneth Williams"
+    ]
+  },
+  {
+    "name": "La passion de Jeanne d'Arc",
+    "pos": 200,
+    "rating": 8.1,
+    "director": "Carl Theodor Dreyer",
+    "actors": [
+      "Maria Falconetti",
+      "Eugene Silvain"
+    ]
+  },
+  {
+    "name": "Гонка",
+    "pos": 201,
+    "rating": 8.1,
+    "director": "Ron Howard",
+    "actors": [
+      "Daniel Brühl",
+      "Chris Hemsworth"
+    ]
+  },
+  {
+    "name": "Малышка на миллион",
+    "pos": 202,
+    "rating": 8.1,
+    "director": "Clint Eastwood",
+    "actors": [
+      "Hilary Swank",
+      "Clint Eastwood"
+    ]
+  },
+  {
+    "name": "Безумный Макс: Дорога ярости",
+    "pos": 203,
+    "rating": 8.1,
+    "director": "George Miller",
+    "actors": [
+      "Tom Hardy",
+      "Charlize Theron"
+    ]
+  },
+  {
+    "name": "Перед рассветом",
+    "pos": 204,
+    "rating": 8.1,
+    "director": "Richard Linklater",
+    "actors": [
+      "Ethan Hawke",
+      "Julie Delpy"
+    ]
+  },
+  {
+    "name": "Les quatre cents coups",
+    "pos": 205,
+    "rating": 8.1,
+    "director": "François Truffaut",
+    "actors": [
+      "Jean-Pierre Léaud",
+      "Albert Rémy"
+    ]
+  },
+  {
+    "name": "В центре внимания",
+    "pos": 206,
+    "rating": 8.1,
+    "director": "Tom McCarthy",
+    "actors": [
+      "Mark Ruffalo",
+      "Michael Keaton"
+    ]
+  },
+  {
+    "name": "Логан: Росомаха",
+    "pos": 207,
+    "rating": 8.1,
+    "director": "James Mangold",
+    "actors": [
+      "Hugh Jackman",
+      "Patrick Stewart"
+    ]
+  },
+  {
+    "name": "Сука любовь",
+    "pos": 208,
+    "rating": 8.1,
+    "director": "Alejandro G. Iñárritu",
+    "actors": [
+      "Emilio Echevarría",
+      "Gael García Bernal"
+    ]
+  },
+  {
+    "name": "Хатико: самый верный друг",
+    "pos": 209,
+    "rating": 8.1,
+    "director": "Lasse Hallström",
+    "actors": [
+      "Richard Gere",
+      "Joan Allen"
+    ]
+  },
+  {
+    "name": "Пленницы",
+    "pos": 210,
+    "rating": 8.1,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "Hugh Jackman",
+      "Jake Gyllenhaal"
+    ]
+  },
+  {
+    "name": "Принцесса-невеста",
+    "pos": 211,
+    "rating": 8.1,
+    "director": "Rob Reiner",
+    "actors": [
+      "Cary Elwes",
+      "Mandy Patinkin"
+    ]
+  },
+  {
+    "name": "Навсикая из Долины ветров",
+    "pos": 212,
+    "rating": 8.1,
+    "director": "Hayao Miyazaki",
+    "actors": [
+      "Sumi Shimamoto",
+      "Mahito Tsujimura"
+    ]
+  },
+  {
+    "name": "Бутч Кэссиди и Санденс Кид",
+    "pos": 213,
+    "rating": 8.0,
+    "director": "George Roy Hill",
+    "actors": [
+      "Paul Newman",
+      "Robert Redford"
+    ]
+  },
+  {
+    "name": "Поймай меня, если сможешь",
+    "pos": 214,
+    "rating": 8.0,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Tom Hanks"
+    ]
+  },
+  {
+    "name": "Гарри Поттер и Дары смерти: Часть II",
+    "pos": 215,
+    "rating": 8.0,
+    "director": "David Yates",
+    "actors": [
+      "Daniel Radcliffe",
+      "Emma Watson"
+    ]
+  },
+  {
+    "name": "Рокки",
+    "pos": 216,
+    "rating": 8.0,
+    "director": "John G. Avildsen",
+    "actors": [
+      "Sylvester Stallone",
+      "Talia Shire"
+    ]
+  },
+  {
+    "name": "Barry Lyndon",
+    "pos": 217,
+    "rating": 8.0,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "Ryan O'Neal",
+      "Marisa Berenson"
+    ]
+  },
+  {
+    "name": "The Maltese Falcon",
+    "pos": 218,
+    "rating": 8.0,
+    "director": "John Huston",
+    "actors": [
+      "Humphrey Bogart",
+      "Mary Astor"
+    ]
+  },
+  {
+    "name": "Корпорация монстров",
+    "pos": 219,
+    "rating": 8.0,
+    "director": "Pete Docter",
+    "actors": [
+      "Billy Crystal",
+      "John Goodman"
+    ]
+  },
+  {
+    "name": "The Grapes of Wrath",
+    "pos": 220,
+    "rating": 8.0,
+    "director": "John Ford",
+    "actors": [
+      "Henry Fonda",
+      "Jane Darwell"
+    ]
+  },
+  {
+    "name": "Бегущий по лезвию 2049",
+    "pos": 221,
+    "rating": 8.0,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "Harrison Ford",
+      "Ryan Gosling"
+    ]
+  },
+  {
+    "name": "Донни Дарко",
+    "pos": 222,
+    "rating": 8.0,
+    "director": "Richard Kelly",
+    "actors": [
+      "Jake Gyllenhaal",
+      "Jena Malone"
+    ]
+  },
+  {
+    "name": "Les diaboliques",
+    "pos": 223,
+    "rating": 8.0,
+    "director": "Henri-Georges Clouzot",
+    "actors": [
+      "Simone Signoret",
+      "Véra Clouzot"
+    ]
+  },
+  {
+    "name": "Ганди",
+    "pos": 224,
+    "rating": 8.0,
+    "director": "Richard Attenborough",
+    "actors": [
+      "Ben Kingsley",
+      "John Gielgud"
+    ]
+  },
+  {
+    "name": "Ла-Ла Ленд",
+    "pos": 225,
+    "rating": 8.0,
+    "director": "Damien Chazelle",
+    "actors": [
+      "Ryan Gosling",
+      "Emma Stone"
+    ]
+  },
+  {
+    "name": "Терминатор",
+    "pos": 226,
+    "rating": 8.0,
+    "director": "James Cameron",
+    "actors": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton"
+    ]
+  },
+  {
+    "name": "Ночи Кабирии",
+    "pos": 227,
+    "rating": 8.0,
+    "director": "Federico Fellini",
+    "actors": [
+      "Giulietta Masina",
+      "François Périer"
+    ]
+  },
+  {
+    "name": "Общество мёртвых поэтов",
+    "pos": 228,
+    "rating": 8.0,
+    "director": "Peter Weir",
+    "actors": [
+      "Robin Williams",
+      "Robert Sean Leonard"
+    ]
+  },
+  {
+    "name": "Ненависть",
+    "pos": 229,
+    "rating": 8.0,
+    "director": "Mathieu Kassovitz",
+    "actors": [
+      "Vincent Cassel",
+      "Hubert Koundé"
+    ]
+  },
+  {
+    "name": "День сурка",
+    "pos": 230,
+    "rating": 8.0,
+    "director": "Harold Ramis",
+    "actors": [
+      "Bill Murray",
+      "Andie MacDowell"
+    ]
+  },
+  {
+    "name": "The Wizard of Oz",
+    "pos": 231,
+    "rating": 8.0,
+    "director": "Victor Fleming",
+    "actors": [
+      "Judy Garland",
+      "Frank Morgan"
+    ]
+  },
+  {
+    "name": "Paper Moon",
+    "pos": 232,
+    "rating": 8.0,
+    "director": "Peter Bogdanovich",
+    "actors": [
+      "Ryan O'Neal",
+      "Tatum O'Neal"
+    ]
+  },
+  {
+    "name": "Jaws",
+    "pos": 233,
+    "rating": 8.0,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Roy Scheider",
+      "Robert Shaw"
+    ]
+  },
+  {
+    "name": "Среда",
+    "pos": 234,
+    "rating": 8.0,
+    "director": "Neeraj Pandey",
+    "actors": [
+      "Anupam Kher",
+      "Naseeruddin Shah"
+    ]
+  },
+  {
+    "name": "Банды Вассейпура",
+    "pos": 235,
+    "rating": 8.0,
+    "director": "Anurag Kashyap",
+    "actors": [
+      "Manoj Bajpayee",
+      "Richa Chadha"
+    ]
+  },
+  {
+    "name": "Прислуга",
+    "pos": 236,
+    "rating": 8.0,
+    "director": "Tate Taylor",
+    "actors": [
+      "Emma Stone",
+      "Viola Davis"
+    ]
+  },
+  {
+    "name": "Любовное настроение",
+    "pos": 237,
+    "rating": 8.0,
+    "director": "Kar-Wai Wong",
+    "actors": [
+      "Tony Chiu-Wai Leung",
+      "Maggie Cheung"
+    ]
+  },
+  {
+    "name": "Перед закатом",
+    "pos": 238,
+    "rating": 8.0,
+    "director": "Richard Linklater",
+    "actors": [
+      "Ethan Hawke",
+      "Julie Delpy"
+    ]
+  },
+  {
+    "name": "Ультиматум Борна",
+    "pos": 239,
+    "rating": 8.0,
+    "director": "Paul Greengrass",
+    "actors": [
+      "Matt Damon",
+      "Edgar Ramírez"
+    ]
+  },
+  {
+    "name": "Paris, Texas",
+    "pos": 240,
+    "rating": 8.0,
+    "director": "Wim Wenders",
+    "actors": [
+      "Harry Dean Stanton",
+      "Nastassja Kinski"
+    ]
+  },
+  {
+    "name": "Мандарины",
+    "pos": 241,
+    "rating": 8.0,
+    "director": "Zaza Urushadze",
+    "actors": [
+      "Lembit Ulfsak",
+      "Elmo Nüganen"
+    ]
+  },
+  {
+    "name": "Touch of Evil",
+    "pos": 242,
+    "rating": 8.0,
+    "director": "Orson Welles",
+    "actors": [
+      "Charlton Heston",
+      "Orson Welles"
+    ]
+  },
+  {
+    "name": "Стражи Галактики",
+    "pos": 243,
+    "rating": 8.0,
+    "director": "James Gunn",
+    "actors": [
+      "Chris Pratt",
+      "Vin Diesel"
+    ]
+  },
+  {
+    "name": "Зимняя спячка",
+    "pos": 244,
+    "rating": 8.0,
+    "director": "Nuri Bilge Ceylan",
+    "actors": [
+      "Haluk Bilginer",
+      "Melisa Sözen"
+    ]
+  },
+  {
+    "name": "Три цвета: Красный",
+    "pos": 245,
+    "rating": 8.0,
+    "director": "Krzysztof Kieslowski",
+    "actors": [
+      "Irène Jacob",
+      "Jean-Louis Trintignant"
+    ]
+  },
+  {
+    "name": "Возвращение на Родину",
+    "pos": 246,
+    "rating": 8.0,
+    "director": "Ashutosh Gowariker",
+    "actors": [
+      "Shah Rukh Khan",
+      "Gayatri Joshi"
+    ]
+  },
+  {
+    "name": "Пираты Карибского моря: Проклятие Чёрной жемчужины",
+    "pos": 247,
+    "rating": 8.0,
+    "director": "Gore Verbinski",
+    "actors": [
+      "Johnny Depp",
+      "Geoffrey Rush"
+    ]
+  },
+  {
+    "name": "ПиКей",
+    "pos": 248,
+    "rating": 8.0,
+    "director": "Rajkumar Hirani",
+    "actors": [
+      "Aamir Khan",
+      "Anushka Sharma"
+    ]
+  },
+  {
+    "name": "Красавица и чудовище",
+    "pos": 249,
+    "rating": 8.0,
+    "director": "Gary Trousdale",
+    "actors": [
+      "Paige O'Hara",
+      "Robby Benson"
+    ]
+  },
+  {
+    "name": "Лагаан: Однажды в Индии",
+    "pos": 250,
+    "rating": 8.0,
+    "director": "Ashutosh Gowariker",
+    "actors": [
+      "Aamir Khan",
+      "Raghuvir Yadav"
+    ]
+  }
+]
